@@ -84,10 +84,8 @@ class Data_Generator:
     
     def _get_nice_eigenvalues(self, common):
         eigenvalues = common.eigenvalues
-        ##################################   here we are converting to a math set, then back to a list to discard repeated elements
         unique_eigenvalues = set(eigenvalues)
         eigenvalues = list(unique_eigenvalues)
-        ##################################
         eigenvalues_with_multiplicities = common.eigenvalues_with_multiplicities
 
         eigenvalues_nice = []
@@ -106,8 +104,8 @@ class Data_Generator:
         intersection_density_lower = data["intersection density lower"]
         intersection_density_exact = data["intersection density exact"]
         transitivity = data["transitivity"]
-        minimally_transitive = data["minimally transitive"] ####
-        minimally_transitive_subgroups = data["minimally transitive subgroups"] ####
+        minimally_transitive = data["minimally transitive"]
+        minimally_transitive_subgroups = data["minimally transitive subgroups"]
         eigenvalues = data["eigenvalues"]
         is_a_join = data["is a join"]
         is_a_complete_multipartite = data["is a complete multipartite"]

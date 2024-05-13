@@ -7,7 +7,7 @@ class Common:
         self.transitivity = gap.Transitivity(group)
         self.identity = group.one()
         self.characters = group.irreducible_characters()
-        self.minimally_transitive = self._get_minimally_transitive() ####
+        self.minimally_transitive = self._get_minimally_transitive()
         self.conjugacy_classes = group.conjugacy_classes()
         self.derangement_classes = self._get_derangement_classes()
         self.subgroups = group.conjugacy_classes_subgroups()
@@ -17,7 +17,7 @@ class Common:
         self.n_cliques = self._get_n_cliques()
         self.stabilizer_sized_cocliques = self._get_stabilizer_sized_cocliques()
         self.larger_than_stabilizer_cocliques = self._get_larger_than_stabilizer_cocliques()
-        self.minimally_transitive_subgroups = self._get_minimally_transitive_subgroups()  ####
+        self.minimally_transitive_subgroups = self._get_minimally_transitive_subgroups()
         self.is_a_join = self._get_is_a_join()
         self.is_a_complete_multipartite = self._get_is_a_complete_multipartite()
     

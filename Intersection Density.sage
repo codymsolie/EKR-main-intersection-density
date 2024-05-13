@@ -28,10 +28,8 @@ class Intersection_Density:
 
     def _get_nice_eigenvalues(self, common):
         eigenvalues = common.eigenvalues
-        ##################################  only keep one copy of each eigenvalue
         unique_eigenvalues = set(eigenvalues)
         eigenvalues = list(unique_eigenvalues)
-        ##################################
         eigenvalues_with_multiplicities = common.eigenvalues_with_multiplicities
 
         eigenvalues_nice = []

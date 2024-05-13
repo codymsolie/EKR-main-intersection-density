@@ -6,7 +6,7 @@ class EKR_Determiner:
         self.has_ekr = None
         self.reasons = []
 
-        #weightings is used (if we have some) to pass weighting infromation along to the EKRM determiner
+        #weightings is used (if we have some) to pass weighting information along to the EKRM determiner
         self.weightings = None
 
         if self.G.larger_than_stabilizer_cocliques:
