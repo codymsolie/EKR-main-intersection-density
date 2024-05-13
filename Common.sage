@@ -188,6 +188,9 @@ class Common:
             return true
         return false
 
+# this function tells us if the derangement graph is a complete multipartite
+
+# NOT CURRENTLY WORKING PROPERLY 05/13/24
     def _get_is_a_complete_multipartite(self):
         if not self.is_a_join:
             return false
