@@ -1,0 +1,26 @@
+Transitive group number 42 of degree 10
+
+Order: 14400
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [18]
+
+Eigenvalues: [(-6224, 1), (-244, 64), (-80, 100), (-44, 64), (-24, 2304), (-20, 1600), (-16, 1250), (0, 3600), (11, 512), (16, 2546), (20, 1600), (61, 512), (80, 100), (96, 144), (176, 2), (8176, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

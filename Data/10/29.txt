@@ -1,0 +1,26 @@
+Transitive group number 29 of degree 10
+
+Order: 640
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 4, 8]
+
+Eigenvalues: [(-49, 25), (-31, 16), (-1, 220), (1, 300), (15, 75), (49, 3), (369, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

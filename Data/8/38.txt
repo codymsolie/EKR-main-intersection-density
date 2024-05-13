@@ -1,0 +1,26 @@
+Transitive group number 38 of degree 8
+
+Order: 192
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 3, 4, 5, 21]
+
+Eigenvalues: [(-17, 16), (-15, 9), (-1, 48), (1, 84), (7, 32), (17, 2), (113, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

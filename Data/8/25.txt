@@ -1,0 +1,26 @@
+Transitive group number 25 of degree 8
+
+Order: 56
+
+Intersection Density: 1
+
+Transitivity: 2
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [3]
+
+Eigenvalues: [(-1, 49), (7, 7)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

@@ -1,0 +1,26 @@
+Transitive group number 3 of degree 7
+
+Order: 21
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1]
+
+Eigenvalues: [(-1, 18), (6, 3)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

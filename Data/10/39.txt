@@ -1,0 +1,26 @@
+Transitive group number 39 of degree 10
+
+Order: 3840
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 4, 8]
+
+Eigenvalues: [(-291, 16), (-233, 25), (-23, 25), (-17, 100), (-11, 16), (-9, 225), (-7, 800), (-5, 600), (-1, 120), (1, 600), (3, 600), (5, 200), (7, 25), (9, 1), (29, 200), (39, 225), (49, 36), (57, 25), (2329, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

@@ -1,0 +1,26 @@
+Transitive group number 6 of degree 12
+
+Order: 24
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [4]
+
+Eigenvalues: [(-4, 2), (-2, 9), (0, 9), (2, 3), (20, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

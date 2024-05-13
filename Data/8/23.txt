@@ -1,0 +1,26 @@
+Transitive group number 23 of degree 8
+
+Order: 48
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 5]
+
+Eigenvalues: [(-5, 9), (-3, 16), (3, 22), (27, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['There is a coclique of size |G|/n that is not the stabilizer of a point or a coset of one']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

@@ -1,0 +1,26 @@
+Transitive group number 5 of degree 11
+
+Order: 660
+
+Intersection Density: 1
+
+Transitivity: 2
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1]
+
+Eigenvalues: [(-23, 100), (-10, 121), (-1, 100), (10, 338), (230, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['There is a coclique of size |G|/n that is not the stabilizer of a point or a coset of one']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

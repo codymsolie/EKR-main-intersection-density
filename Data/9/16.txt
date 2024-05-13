@@ -1,0 +1,26 @@
+Transitive group number 16 of degree 9
+
+Order: 72
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2]
+
+Eigenvalues: [(-16, 1), (-4, 32), (2, 32), (8, 6), (32, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

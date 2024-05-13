@@ -1,0 +1,26 @@
+Transitive group number 36 of degree 10
+
+Order: 1920
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 8]
+
+Eigenvalues: [(-151, 16), (-113, 25), (-17, 50), (-7, 400), (-1, 660), (1, 300), (15, 225), (17, 225), (49, 18), (1169, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

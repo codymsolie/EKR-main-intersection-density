@@ -1,0 +1,26 @@
+Transitive group number 36 of degree 12
+
+Order: 72
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [3, 17]
+
+Eigenvalues: [(-23, 1), (-5, 4), (-2, 32), (1, 32), (13, 2), (49, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['There is a coclique of size |G|/n that is not the stabilizer of a point or a coset of one']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

@@ -1,0 +1,26 @@
+Transitive group number 5 of degree 5
+
+Order: 120
+
+Intersection Density: 1
+
+Transitivity: 5
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1]
+
+Eigenvalues: [(-11, 16), (-4, 25), (-1, 16), (4, 62), (44, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

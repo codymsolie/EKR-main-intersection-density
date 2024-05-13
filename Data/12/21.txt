@@ -1,0 +1,26 @@
+Transitive group number 21 of degree 12
+
+Order: 48
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [3, 9]
+
+Eigenvalues: [(-7, 5), (-1, 24), (1, 18), (41, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: False as ['The group has an n-clique and a maximum coclique sits in a module outside of the permutation representation']
+
+Strict EKR Property: False as ['Group does not have the EKRM property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

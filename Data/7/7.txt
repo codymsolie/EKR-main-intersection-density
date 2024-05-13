@@ -1,0 +1,26 @@
+Transitive group number 7 of degree 7
+
+Order: 5040
+
+Intersection Density: 1
+
+Transitivity: 7
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1]
+
+Eigenvalues: [(-309, 36), (-21, 196), (-18, 1225), (-15, 400), (-9, 196), (-6, 196), (-1, 36), (6, 1892), (14, 441), (62, 225), (66, 196), (1854, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

@@ -1,0 +1,26 @@
+Transitive group number 23 of degree 12
+
+Order: 48
+
+Intersection Density: not smart enough to compute yet
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [7, 9]
+
+Eigenvalues: [(-10, 1), (-4, 8), (-2, 18), (2, 20), (38, 1)]
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

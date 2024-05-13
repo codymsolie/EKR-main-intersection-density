@@ -1,0 +1,34 @@
+Transitive group number 1 of degree 3
+
+Order: 3
+
+Structure Description: C3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+
+Eigenvalues: [(-1, 2), (2, 1)]
+
+Join: True
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: True
+
+Nilpotent: True
+
+Primitive: True
+

@@ -1,0 +1,26 @@
+Transitive group number 12 of degree 6
+
+Order: 60
+
+Intersection Density: 1
+
+Transitivity: 2
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [4]
+
+Eigenvalues: [(-4, 25), (0, 18), (5, 16), (20, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

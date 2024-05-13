@@ -1,0 +1,26 @@
+Transitive group number 20 of degree 12
+
+Order: 36
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 4]
+
+Eigenvalues: [(-9, 2), (-1, 27), (3, 6), (27, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

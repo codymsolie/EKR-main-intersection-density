@@ -1,0 +1,26 @@
+Transitive group number 1 of degree 6
+
+Order: 6
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+
+Eigenvalues: [(-1, 5), (5, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: True
+
+Nilpotent: True
+
+Primitive: False
+

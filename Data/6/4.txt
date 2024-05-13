@@ -1,0 +1,26 @@
+Transitive group number 4 of degree 6
+
+Order: 12
+
+Intersection Density: 2
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+
+Eigenvalues: [(-4, 2), (0, 9), (8, 1)]
+
+EKR Property: False as ['A coclique of size larger than |G|/n exists']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

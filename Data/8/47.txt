@@ -1,0 +1,26 @@
+Transitive group number 47 of degree 8
+
+Order: 1152
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 3, 4, 5, 21]
+
+Eigenvalues: [(-495, 1), (-27, 40), (-9, 160), (-3, 360), (1, 162), (3, 144), (9, 268), (27, 16), (657, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

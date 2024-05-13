@@ -1,0 +1,26 @@
+Transitive group number 6 of degree 11
+
+Order: 7920
+
+Intersection Density: 1
+
+Transitivity: 4
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1]
+
+Eigenvalues: [(-276, 100), (-45, 512), (-24, 3025), (-12, 200), (0, 121), (30, 1936), (32, 2025), (2760, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

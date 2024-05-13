@@ -1,0 +1,26 @@
+Transitive group number 19 of degree 9
+
+Order: 144
+
+Intersection Density: 1
+
+Transitivity: 2
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2]
+
+Eigenvalues: [(-16, 2), (-4, 64), (2, 64), (8, 12), (32, 2)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

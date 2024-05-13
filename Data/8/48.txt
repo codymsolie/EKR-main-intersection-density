@@ -1,0 +1,26 @@
+Transitive group number 48 of degree 8
+
+Order: 1344
+
+Intersection Density: 1
+
+Transitivity: 3
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 3, 4, 5]
+
+Eigenvalues: [(-75, 49), (-21, 64), (-3, 539), (5, 441), (9, 196), (21, 18), (49, 36), (525, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique', 'Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

@@ -1,0 +1,26 @@
+Transitive group number 3 of degree 4
+
+Order: 8
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2]
+
+Eigenvalues: [(-3, 1), (-1, 4), (1, 2), (5, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: True
+
+Primitive: False
+

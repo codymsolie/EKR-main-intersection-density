@@ -1,0 +1,26 @@
+Transitive group number 31 of degree 9
+
+Order: 1296
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2]
+
+Eigenvalues: [(-208, 4), (-64, 9), (-40, 36), (-4, 216), (-1, 384), (2, 576), (8, 24), (32, 36), (80, 9), (224, 1), (656, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

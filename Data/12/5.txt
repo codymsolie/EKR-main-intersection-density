@@ -1,0 +1,26 @@
+Transitive group number 5 of degree 12
+
+Order: 12
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+
+Eigenvalues: [(-1, 11), (11, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

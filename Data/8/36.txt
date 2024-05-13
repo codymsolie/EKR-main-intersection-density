@@ -1,0 +1,26 @@
+Transitive group number 36 of degree 8
+
+Order: 168
+
+Intersection Density: 1
+
+Transitivity: 2
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [3]
+
+Eigenvalues: [(-21, 2), (-9, 49), (3, 98), (7, 18), (63, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

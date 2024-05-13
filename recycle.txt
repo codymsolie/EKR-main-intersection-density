@@ -1,0 +1,28 @@
+ '''
+    ##############################################################
+
+    # "fully determined" intersection density has the form [a,a]
+
+    # this function is able to give correct values for degree <= 6 at this moment 05/07/2024
+    def _get_intersection_density(self, common, ekr):
+        intersection_density = None
+
+        # if we have ekr property, we are done
+        if ekr.has_ekr: return [1,1]
+
+        # everything below this is incomplete, simply the first step(s) for what i am trying to acheive
+        # namely, use what we have calculated in the tests to bound the intersection density above and below
+        # or give a specific value of the intersection density if it is known. 
+
+        elif len(common.larger_than_stabilizer_cocliques) >= 1: 
+            # we have at least one subgroup which is larger than the stabilizer of a point, so
+            # gather all subgroups with size larger than stabilizer in a list, and compute its size:
+            size = max([subgroup.order() for subgroup in common.larger_than_stabilizer_cocliques])
+            # use the largest order (size) to calculate an upper bound on intersection density:
+
+            return [1 , size / (common.order / common.degree)] # 1 because we are not yet sure of the lower bound
+
+        else: return "not smart enough to compute yet"
+
+    ##############################################################
+    '''

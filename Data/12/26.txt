@@ -1,0 +1,26 @@
+Transitive group number 26 of degree 12
+
+Order: 48
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 4]
+
+Eigenvalues: [(-10, 2), (-2, 27), (2, 18), (38, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['There is a coclique of size |G|/n that is not the stabilizer of a point or a coset of one']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

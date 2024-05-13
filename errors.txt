@@ -1,0 +1,6 @@
+While checking the EKR properties of Transitive group number 1 of degree 3 we encountered the error name 'ekr_determiner' is not defined
+
+
+While checking the EKR properties of Transitive group number 2 of degree 3 we encountered the error name 'ekr_determiner' is not defined
+
+

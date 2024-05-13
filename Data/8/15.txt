@@ -1,0 +1,26 @@
+Transitive group number 15 of degree 8
+
+Order: 32
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 4, 5]
+
+Eigenvalues: [(-11, 1), (-3, 4), (-1, 16), (1, 8), (5, 2), (21, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: False as ['There is a coclique of size |G|/n that is not the stabilizer of a point or a coset of one']
+
+Abelian: False
+
+Nilpotent: True
+
+Primitive: False
+

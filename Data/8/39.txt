@@ -1,0 +1,26 @@
+Transitive group number 39 of degree 8
+
+Order: 192
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 3, 4, 5]
+
+Eigenvalues: [(-19, 9), (-15, 16), (-3, 35), (1, 36), (3, 64), (5, 27), (9, 4), (117, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

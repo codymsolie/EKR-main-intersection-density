@@ -1,0 +1,26 @@
+Transitive group number 43 of degree 8
+
+Order: 336
+
+Intersection Density: 1
+
+Transitivity: 3
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 4]
+
+Eigenvalues: [(-21, 50), (0, 128), (3, 49), (7, 108), (147, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique', 'Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

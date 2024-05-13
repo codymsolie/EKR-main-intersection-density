@@ -1,0 +1,26 @@
+Transitive group number 18 of degree 10
+
+Order: 200
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+
+Eigenvalues: [(-84, 1), (-4, 64), (1, 128), (16, 6), (116, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

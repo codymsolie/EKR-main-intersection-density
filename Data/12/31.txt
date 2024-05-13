@@ -1,0 +1,26 @@
+Transitive group number 31 of degree 12
+
+Order: 48
+
+Intersection Density: not smart enough to compute yet
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+
+Eigenvalues: [(-10, 2), (-2, 27), (2, 18), (38, 1)]
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

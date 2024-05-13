@@ -1,0 +1,26 @@
+Transitive group number 33 of degree 10
+
+Order: 800
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 4, 18]
+
+Eigenvalues: [(-384, 1), (-4, 256), (1, 512), (16, 30), (416, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

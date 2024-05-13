@@ -1,0 +1,26 @@
+Transitive group number 44 of degree 8
+
+Order: 384
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 3, 4, 5, 21]
+
+Eigenvalues: [(-39, 9), (-29, 16), (-7, 1), (-5, 16), (-3, 72), (-1, 96), (1, 24), (5, 72), (7, 64), (9, 9), (17, 4), (233, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

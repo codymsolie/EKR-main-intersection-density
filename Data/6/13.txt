@@ -1,0 +1,26 @@
+Transitive group number 13 of degree 6
+
+Order: 72
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 10]
+
+Eigenvalues: [(-32, 1), (-2, 32), (1, 32), (4, 6), (40, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

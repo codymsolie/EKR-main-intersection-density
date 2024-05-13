@@ -1,0 +1,26 @@
+Transitive group number 7 of degree 8
+
+Order: 16
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1]
+
+Eigenvalues: [(-3, 3), (-1, 8), (1, 4), (13, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: True
+
+Primitive: False
+

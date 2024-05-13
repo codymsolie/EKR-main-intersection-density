@@ -1,0 +1,26 @@
+Transitive group number 22 of degree 10
+
+Order: 240
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 4]
+
+Eigenvalues: [(-76, 1), (-11, 32), (-4, 50), (-1, 32), (4, 124), (164, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

@@ -1,0 +1,26 @@
+Transitive group number 24 of degree 10
+
+Order: 320
+
+Intersection Density: [1, 1]
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [8]
+
+Eigenvalues: [(-24, 25), (-16, 16), (0, 200), (8, 75), (24, 3), (184, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

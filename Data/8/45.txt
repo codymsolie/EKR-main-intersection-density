@@ -1,0 +1,26 @@
+Transitive group number 45 of degree 8
+
+Order: 576
+
+Intersection Density: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 3, 4, 5]
+
+Eigenvalues: [(-243, 1), (-27, 2), (-15, 36), (-3, 306), (5, 162), (9, 68), (333, 1)]
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

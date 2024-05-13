@@ -1,0 +1,26 @@
+Transitive group number 32 of degree 10
+
+Order: 720
+
+Intersection Density: [1, 1]
+
+Transitivity: 2
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [4, 7]
+
+Eigenvalues: [(-26, 81), (-18, 50), (-6, 81), (0, 200), (9, 256), (18, 50), (54, 1), (234, 1)]
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+
