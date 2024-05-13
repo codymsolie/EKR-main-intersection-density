@@ -20,6 +20,8 @@ Eigenvalues: [(-1, 4), (2, 2)]
 
 Join: False
 
+Complete Multipartite: False
+
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 
 EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique', 'Group has the strict EKR property']

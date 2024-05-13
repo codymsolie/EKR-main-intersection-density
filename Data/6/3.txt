@@ -2,7 +2,13 @@ Transitive group number 3 of degree 6
 
 Order: 12
 
-Intersection Density: 1
+Structure Description: D12
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1, 2]
 
 Eigenvalues: [(-4, 1), (-1, 8), (2, 2), (8, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 
