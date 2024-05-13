@@ -39,6 +39,7 @@ class Data_Generator:
                     "minimally transitive subgroups": common.minimally_transitive_subgroups,
                     "eigenvalues": self._get_nice_eigenvalues(common),
                     "is a join": common.is_a_join,
+                    "is a complete multipartite": common.is_a_complete_multipartite,
                     "ekr": ekr.has_ekr,
                     "ekr reasons": ekr.reasons,
                     "ekrm": ekrm.has_ekrm,
@@ -109,6 +110,7 @@ class Data_Generator:
         minimally_transitive_subgroups = data["minimally transitive subgroups"] ####
         eigenvalues = data["eigenvalues"]
         is_a_join = data["is a join"]
+        is_a_complete_multipartite = data["is a complete multipartite"]
         ekr = data["ekr"] 
         ekr_reasons = data["ekr reasons"]
         ekrm = data["ekrm"]
@@ -130,6 +132,7 @@ class Data_Generator:
         contents += f"Indices of Minimally Transitive Subgroups: {minimally_transitive_subgroups}\n\n"
         contents += f"Eigenvalues: {eigenvalues}\n\n"
         contents += f"Join: {is_a_join}\n\n"
+        contents += f"Complete Multipartite: {is_a_complete_multipartite}\n\n"
         contents += f"EKR Property: {ekr} as {ekr_reasons}\n\n"
         contents += f"EKRM Property: {ekrm} as {ekrm_reasons}\n\n"
         contents += f"Strict EKR Property: {sekr} as {sekr_reasons}\n\n"

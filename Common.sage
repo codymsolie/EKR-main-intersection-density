@@ -19,6 +19,7 @@ class Common:
         self.larger_than_stabilizer_cocliques = self._get_larger_than_stabilizer_cocliques()
         self.minimally_transitive_subgroups = self._get_minimally_transitive_subgroups()  ####
         self.is_a_join = self._get_is_a_join()
+        self.is_a_complete_multipartite = self._get_is_a_complete_multipartite()
     
     def _get_derangement_classes(self):
         conjugacy_classes = self.conjugacy_classes
@@ -184,5 +185,12 @@ class Common:
 # this function tells us if the derangement graph is a join
     def _get_is_a_join(self):
         if (self.max_eigenvalue - self.min_eigenvalue) == self.order:
+            return true
+        return false
+
+    def _get_is_a_complete_multipartite(self):
+        if not self.is_a_join:
+            return false
+        elif set(self.eigenvalues) == {self.degree, self.degree - self.order, 0}:
             return true
         return false
