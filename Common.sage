@@ -55,7 +55,7 @@ class Common:
         return (eigenvalues, eigenvalues_with_multiplicities)
 
 
-    def _get_n_cliques(self): #####                                          <=
+    def _get_n_cliques(self):                                    
         subgroups = self.subgroups
         n_subgroups = [subgroup for subgroup in subgroups if subgroup.order() == self.degree]
 
@@ -67,7 +67,7 @@ class Common:
             if minimum_eigenvalue == -1:
                 n_cliques.append(subgroup)
 
-        return n_cliques #####
+        return n_cliques
 
 
     def _get_stabilizer_sized_cocliques(self):
@@ -99,8 +99,7 @@ class Common:
         return larger_than_stabilizer_cocliques
 
         # size of largest gives lower bound on int. density
-        
-################################################################
+
     def _get_number(self):
         name = str(self.group)
 
@@ -125,8 +124,6 @@ class Common:
             if number == index:
                 return true
         return false
-
-################################################################
 
 
     #helper functions
@@ -156,8 +153,6 @@ class Common:
 
         return eigenvalues
 
-
-################################################################
     def _get_minimally_transitive_subgroups(self):
         if (self.minimally_transitive):
             return "none as group is minimally transitive"
@@ -178,8 +173,6 @@ class Common:
             unique_min_trans = set(minimal_transitive_subgroups)
             minimal_transitive_subgroups = sorted(list(unique_min_trans))
         return minimal_transitive_subgroups
-
-################################################################
 
 
 # this function tells us if the derangement graph is a join
