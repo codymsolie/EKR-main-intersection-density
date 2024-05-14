@@ -26,7 +26,7 @@ class Intersection_Density:
             return 1
         return "not smart enough yet"
 
-    def _get_nice_eigenvalues(self, common):
+    def _get_nice_eigenvalues(self, common): # (deg, mult) format
         eigenvalues = common.eigenvalues
         unique_eigenvalues = set(eigenvalues)
         eigenvalues = list(unique_eigenvalues)
