@@ -20,7 +20,7 @@ Eigenvalues: [(-26, 25), (-5, 128), (-2, 25), (4, 100), (10, 81), (130, 1)]
 
 Join: False
 
-Complete Multipartite: None
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

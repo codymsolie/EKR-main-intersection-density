@@ -20,7 +20,7 @@ Eigenvalues: [(-7, 4), (-5, 9), (-1, 6), (1, 18), (3, 9), (5, 1), (29, 1)]
 
 Join: False
 
-Complete Multipartite: None
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 
