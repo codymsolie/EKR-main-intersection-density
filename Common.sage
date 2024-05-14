@@ -184,7 +184,7 @@ class Common:
 # this function tells us if the derangement graph is a complete multipartite
     def _get_is_a_complete_multipartite(self):
         if self.is_a_join:
-            a = set(self.eigenvalues)
-            a = set(map(int, a))
+            a = set(map(int, self.eigenvalues))
             b = set([int(self.max_eigenvalue), int(0), int(self.min_eigenvalue)])
             return a == b
+        return false
