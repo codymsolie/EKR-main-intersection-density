@@ -4,9 +4,9 @@ Order: 12
 
 Structure Description: A4
 
-Intersection Density Upper: upper bound
+Intersection Density Upper: 2
 
-Intersection Density Lower: lower bound
+Intersection Density Lower: no lower bound
 
 Intersection Density Exact: not smart enough yet
 
@@ -20,7 +20,7 @@ Eigenvalues: [(-4, 2), (0, 9), (8, 1)]
 
 Join: True
 
-Complete Multipartite: False
+Complete Multipartite: True
 
 EKR Property: False as ['A coclique of size larger than |G|/n exists']
 
