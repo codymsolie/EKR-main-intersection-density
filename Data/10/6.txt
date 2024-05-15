@@ -2,7 +2,13 @@ Transitive group number 6 of degree 10
 
 Order: 50
 
-Intersection Density: [1, 1]
+Structure Description: C5 x D10
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1, 2]
 
 Eigenvalues: [(-9, 1), (-4, 16), (1, 32), (41, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

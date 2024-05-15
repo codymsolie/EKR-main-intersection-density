@@ -2,7 +2,13 @@ Transitive group number 12 of degree 10
 
 Order: 120
 
-Intersection Density: [1, 1]
+Structure Description: S5
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [4]
 
 Eigenvalues: [(-36, 1), (-6, 32), (0, 50), (4, 36), (84, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

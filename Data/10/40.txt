@@ -2,7 +2,13 @@ Transitive group number 40 of degree 10
 
 Order: 7200
 
-Intersection Density: [1, 1]
+Structure Description: (A5 x A5) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1, 2, 4]
 
 Eigenvalues: [(-3024, 1), (-144, 64), (-24, 1152), (0, 4750), (16, 648), (36, 512), (96, 72), (4176, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

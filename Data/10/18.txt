@@ -2,15 +2,25 @@ Transitive group number 18 of degree 10
 
 Order: 200
 
-Intersection Density: [1, 1]
+Structure Description: (C5 x C5) : C8
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-84, 1), (-4, 64), (1, 128), (16, 6), (116, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

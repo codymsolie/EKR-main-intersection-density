@@ -2,7 +2,13 @@ Transitive group number 35 of degree 10
 
 Order: 1440
 
-Intersection Density: [1, 1]
+Structure Description: (A6 . C2) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 3
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1, 2, 4, 7]
 
 Eigenvalues: [(-126, 1), (-66, 81), (-18, 100), (-6, 162), (0, 400), (9, 512), (14, 81), (18, 100), (54, 2), (594, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

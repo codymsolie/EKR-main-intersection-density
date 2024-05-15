@@ -2,15 +2,25 @@ Transitive group number 7 of degree 10
 
 Order: 60
 
-Intersection Density: [1, 2]
+Structure Description: A5
+
+Intersection Density Upper: 2
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-6, 16), (0, 25), (4, 18), (24, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: False as ['A coclique of size larger than |G|/n exists']
 

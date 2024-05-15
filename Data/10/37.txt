@@ -2,7 +2,13 @@ Transitive group number 37 of degree 10
 
 Order: 1920
 
-Intersection Density: [1, 1]
+Structure Description: (C2 x C2 x C2 x C2) : S5
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [8]
 
 Eigenvalues: [(-146, 16), (-116, 25), (-12, 25), (-8, 100), (-6, 416), (-4, 225), (-2, 400), (0, 100), (4, 126), (12, 100), (16, 100), (20, 225), (24, 36), (28, 25), (1164, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 
