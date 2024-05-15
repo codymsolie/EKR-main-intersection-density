@@ -14,7 +14,7 @@ Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-14, 1), (-2, 16), (1, 16), (4, 2), (22, 1)]
 

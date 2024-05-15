@@ -6,15 +6,15 @@ Structure Description: A4
 
 Intersection Density Upper: 2
 
-Intersection Density Lower: no lower bound
+Intersection Density Lower: 1
 
-Intersection Density Exact: not smart enough yet
+Intersection Density Exact: -1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-4, 2), (0, 9), (8, 1)]
 
