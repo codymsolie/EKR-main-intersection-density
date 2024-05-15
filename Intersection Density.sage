@@ -30,8 +30,11 @@ class Intersection_Density:
         return 1 #1 is the lowest we can get.
 
     def _get_exact_value(self):
-        if self.has_ekr:
-            return 1
         if self.upper_bound == self.lower_bound:
             return upper_bound
+        elif self.G.is_a_complete_multipartite:
+            # then subgroup size for reduction is size of G over tao mult + 1
+            part_subgroups = [H in self.G.subgroups if H.order == (self.G.order / #least eigenvalue mult)]
+        elif self.G.is_a_join
+            # then find H = <non-der>
         return -1
