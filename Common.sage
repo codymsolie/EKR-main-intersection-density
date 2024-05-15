@@ -155,7 +155,7 @@ class Common:
 
     def _get_minimally_transitive_subgroups(self):
         if (self.minimally_transitive):
-            return "none as group is minimally transitive"
+            return []
         else:
             x = gap.MinimalTransitiveIndices(int(self.degree))
             minimal_transitive_subgroups = []
