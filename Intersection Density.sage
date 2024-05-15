@@ -27,7 +27,7 @@ class Intersection_Density:
     def _get_lower_bound(self):
         if self.has_ekr:
             return 1
-        return -1
+        return 1 #1 is the lowest we can get.
 
     def _get_exact_value(self):
         if self.has_ekr:
