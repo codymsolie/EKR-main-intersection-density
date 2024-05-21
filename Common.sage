@@ -7,6 +7,7 @@ class Common:
         self.transitivity = gap.Transitivity(group)
         self.identity = group.one()
         self.characters = group.irreducible_characters()
+        self.size_of_stabilizer = self._get_size_of_stabilizer()
         self.minimally_transitive = self._get_minimally_transitive()
         self.conjugacy_classes = group.conjugacy_classes()
         self.derangement_classes = self._get_derangement_classes()
@@ -72,7 +73,7 @@ class Common:
 
     def _get_stabilizer_sized_cocliques(self):
         subgroups = self.subgroups
-        stabilizer_sized_subgroups = [subgroup for subgroup in subgroups if subgroup.order() == self.order/self.degree]
+        stabilizer_sized_subgroups = [subgroup for subgroup in subgroups if subgroup.order() == self.size_of_stabilizer]
 
         stabilizer_sized_cocliques = []
         for subgroup in stabilizer_sized_subgroups:
@@ -86,7 +87,7 @@ class Common:
 
     def _get_larger_than_stabilizer_cocliques(self):
         subgroups = self.subgroups
-        larger_than_stabilizer_subgroups = [subgroup for subgroup in subgroups if subgroup.order() > self.order/self.degree]
+        larger_than_stabilizer_subgroups = [subgroup for subgroup in subgroups if subgroup.order() > self.size_of_stabilizer]
 
         larger_than_stabilizer_cocliques = []
         for subgroup in larger_than_stabilizer_subgroups:
@@ -103,6 +104,9 @@ class Common:
     def _get_number(self):
         name = str(self.group)
 
+        if self.transitivity == 0:
+            return 0
+
         number_start_index = 24
         number = ""
         for char in name[number_start_index:]:
@@ -112,6 +116,9 @@ class Common:
                 break
         
         return number
+
+    def _get_size_of_stabilizer(self):
+        return self.group.stabilizer(1).order()
 
 # check the index of the group against the list of minimally 
 # transitive groups within its degree
