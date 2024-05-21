@@ -57,5 +57,6 @@ class Intersection_Density:
             print(H)
             non_der_common = Common(H)
             non_der_ekr = EKR_Determiner(non_der_common)
-            print(non_der_ekr.has_ekr)
+            if non_der_ekr.has_ekr:
+                return 1
         return -1
