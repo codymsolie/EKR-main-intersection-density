@@ -2,15 +2,25 @@ Transitive group number 4 of degree 8
 
 Order: 8
 
-Intersection Density: 1
+Structure Description: D8
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-1, 7), (7, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

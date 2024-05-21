@@ -6,9 +6,9 @@ Structure Description: A4
 
 Intersection Density Upper: 2
 
-Intersection Density Lower: 1
+Intersection Density Lower: 2
 
-Intersection Density Exact: -1
+Intersection Density Exact: 2
 
 Transitivity: 1
 

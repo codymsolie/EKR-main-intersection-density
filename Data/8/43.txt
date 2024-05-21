@@ -2,7 +2,13 @@ Transitive group number 43 of degree 8
 
 Order: 336
 
-Intersection Density: 1
+Structure Description: PSL(3,2) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 3
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1, 4]
 
 Eigenvalues: [(-21, 50), (0, 128), (3, 49), (7, 108), (147, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

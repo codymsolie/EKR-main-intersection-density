@@ -1,0 +1,36 @@
+Transitive group number 2 of degree 14
+
+Order: 14
+
+Structure Description: D14
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: []
+
+Eigenvalues: [(-1, 13), (13, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

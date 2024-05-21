@@ -2,15 +2,25 @@ Transitive group number 17 of degree 12
 
 Order: 36
 
-Intersection Density: not smart enough to compute yet
+Structure Description: (C3 x C3) : C4
+
+Intersection Density Upper: -1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-5, 3), (-2, 16), (1, 16), (31, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: None as []
 

@@ -1,0 +1,36 @@
+Transitive group number 33 of degree 14
+
+Order: 1344
+
+Structure Description: (C2 x C2 x C2) . PSL(3,2)
+
+Intersection Density Upper: -1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [6]
+
+Eigenvalues: [(-64, 36), (-56, 49), (-8, 508), (8, 490), (16, 196), (20, 64), (776, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

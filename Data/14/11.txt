@@ -1,0 +1,36 @@
+Transitive group number 11 of degree 14
+
+Order: 168
+
+Structure Description: (C2 x C2 x C2) : (C7 : C3)
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [6]
+
+Eigenvalues: [(-8, 67), (4, 98), (20, 2), (104, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: True as ['Ratiobound gives EKR property']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

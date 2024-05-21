@@ -2,7 +2,13 @@ Transitive group number 7 of degree 7
 
 Order: 5040
 
-Intersection Density: 1
+Structure Description: S7
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 7
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1]
 
 Eigenvalues: [(-309, 36), (-21, 196), (-18, 1225), (-15, 400), (-9, 196), (-6, 196), (-1, 36), (6, 1892), (14, 441), (62, 225), (66, 196), (1854, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

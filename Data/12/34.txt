@@ -2,15 +2,25 @@ Transitive group number 34 of degree 12
 
 Order: 72
 
-Intersection Density: not smart enough to compute yet
+Structure Description: (S3 x S3) : C2
+
+Intersection Density Upper: -1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-14, 3), (-2, 32), (1, 32), (4, 4), (58, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: None as []
 

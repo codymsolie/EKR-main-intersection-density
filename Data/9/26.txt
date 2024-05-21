@@ -2,7 +2,13 @@ Transitive group number 26 of degree 9
 
 Order: 432
 
-Intersection Density: 1
+Structure Description: (((C3 x C3) : Q8) : C3) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 2
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [2]
 
 Eigenvalues: [(-16, 86), (2, 320), (20, 16), (32, 9), (128, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

@@ -1,0 +1,36 @@
+Transitive group number 86 of degree 12
+
+Order: 192
+
+Structure Description: S4 x D8
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 3, 5, 7, 9]
+
+Eigenvalues: [(-51, 1), (-15, 8), (-11, 2), (-5, 36), (-1, 24), (1, 80), (3, 36), (13, 2), (21, 2), (141, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

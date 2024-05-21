@@ -2,7 +2,13 @@ Transitive group number 18 of degree 12
 
 Order: 36
 
-Intersection Density: [1, 1]
+Structure Description: C6 x S3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [2, 3]
 
 Eigenvalues: [(-5, 3), (-2, 16), (1, 16), (31, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

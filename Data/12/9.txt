@@ -2,15 +2,25 @@ Transitive group number 9 of degree 12
 
 Order: 24
 
-Intersection Density: [1, 2]
+Structure Description: S4
+
+Intersection Density Upper: 2
+
+Intersection Density Lower: 2
+
+Intersection Density Exact: 2
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-4, 5), (0, 18), (20, 1)]
+
+Join: True
+
+Complete Multipartite: True
 
 EKR Property: False as ['A coclique of size larger than |G|/n exists']
 

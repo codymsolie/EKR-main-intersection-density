@@ -2,7 +2,13 @@ Transitive group number 6 of degree 7
 
 Order: 2520
 
-Intersection Density: 1
+Structure Description: A7
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 5
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1]
 
 Eigenvalues: [(-155, 36), (-15, 396), (-6, 1225), (10, 441), (30, 196), (34, 225), (930, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

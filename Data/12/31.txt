@@ -2,15 +2,25 @@ Transitive group number 31 of degree 12
 
 Order: 48
 
-Intersection Density: not smart enough to compute yet
+Structure Description: (C4 x C4) : C3
+
+Intersection Density Upper: -1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-10, 2), (-2, 27), (2, 18), (38, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: None as []
 

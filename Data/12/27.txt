@@ -2,7 +2,13 @@ Transitive group number 27 of degree 12
 
 Order: 48
 
-Intersection Density: 1
+Structure Description: A4 : C4
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [4, 5]
 
 Eigenvalues: [(-4, 13), (-2, 18), (2, 6), (4, 9), (8, 1), (32, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

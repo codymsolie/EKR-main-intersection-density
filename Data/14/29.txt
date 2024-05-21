@@ -1,0 +1,36 @@
+Transitive group number 29 of degree 14
+
+Order: 896
+
+Structure Description: C2 x ((C2 x C2 x C2 x C2 x C2 x C2) : C7)
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 6]
+
+Eigenvalues: [(-127, 6), (-1, 448), (1, 441), (769, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: False as ['The group has an n-clique and a maximum coclique sits in a module outside of the permutation representation']
+
+Strict EKR Property: False as ['Group does not have the EKRM property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

@@ -2,15 +2,25 @@ Transitive group number 2 of degree 12
 
 Order: 12
 
-Intersection Density: [1, 1]
+Structure Description: C6 x C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-1, 11), (11, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

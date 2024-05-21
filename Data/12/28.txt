@@ -2,7 +2,13 @@ Transitive group number 28 of degree 12
 
 Order: 48
 
-Intersection Density: 1
+Structure Description: D8 x S3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1, 2, 3, 5]
 
 Eigenvalues: [(-12, 1), (-4, 4), (-3, 8), (-2, 2), (-1, 16), (1, 8), (2, 4), (4, 2), (6, 2), (36, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

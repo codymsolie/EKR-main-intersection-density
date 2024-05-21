@@ -1,0 +1,36 @@
+Transitive group number 58 of degree 12
+
+Order: 96
+
+Structure Description: ((C2 x C2 x C2 x C2) : C2) : C3
+
+Intersection Density Upper: 2
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [7]
+
+Eigenvalues: [(-16, 5), (0, 90), (80, 1)]
+
+Join: True
+
+Complete Multipartite: True
+
+EKR Property: False as ['A coclique of size larger than |G|/n exists']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

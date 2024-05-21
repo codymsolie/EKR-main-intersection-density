@@ -1,0 +1,36 @@
+Transitive group number 6 of degree 14
+
+Order: 56
+
+Structure Description: (C2 x C2 x C2) : C7
+
+Intersection Density Upper: 2
+
+Intersection Density Lower: 2
+
+Intersection Density Exact: 2
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: []
+
+Eigenvalues: [(-8, 6), (0, 49), (48, 1)]
+
+Join: True
+
+Complete Multipartite: True
+
+EKR Property: False as ['A coclique of size larger than |G|/n exists']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

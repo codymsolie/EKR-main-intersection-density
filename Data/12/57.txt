@@ -1,0 +1,36 @@
+Transitive group number 57 of degree 12
+
+Order: 96
+
+Structure Description: ((C4 x C2) : C4) : C3
+
+Intersection Density Upper: -1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: []
+
+Eigenvalues: [(-31, 2), (-1, 48), (1, 45), (65, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

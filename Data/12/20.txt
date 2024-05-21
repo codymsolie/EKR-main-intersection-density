@@ -2,7 +2,13 @@ Transitive group number 20 of degree 12
 
 Order: 36
 
-Intersection Density: [1, 1]
+Structure Description: C3 x A4
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [2, 4]
 
 Eigenvalues: [(-9, 2), (-1, 27), (3, 6), (27, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

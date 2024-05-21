@@ -1,0 +1,36 @@
+Transitive group number 20 of degree 14
+
+Order: 392
+
+Structure Description: (C7 x C7) : D8
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 12]
+
+Eigenvalues: [(-160, 1), (-6, 96), (1, 288), (36, 6), (232, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

@@ -2,7 +2,13 @@ Transitive group number 5 of degree 7
 
 Order: 168
 
-Intersection Density: 1
+Structure Description: PSL(3,2)
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 2
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1]
 
 Eigenvalues: [(-8, 54), (0, 49), (6, 64), (48, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

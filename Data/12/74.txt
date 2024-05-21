@@ -1,0 +1,36 @@
+Transitive group number 74 of degree 12
+
+Order: 120
+
+Structure Description: S5
+
+Intersection Density Upper: -1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [9]
+
+Eigenvalues: [(-40, 1), (-4, 50), (0, 36), (5, 32), (80, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

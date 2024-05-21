@@ -2,7 +2,13 @@ Transitive group number 17 of degree 9
 
 Order: 81
 
-Intersection Density: 1
+Structure Description: (C3 x C3 x C3) : C3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1, 2]
 
 Eigenvalues: [(-19, 2), (-4, 18), (-1, 24), (2, 36), (62, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

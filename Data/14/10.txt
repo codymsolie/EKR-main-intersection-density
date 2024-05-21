@@ -1,0 +1,36 @@
+Transitive group number 10 of degree 14
+
+Order: 168
+
+Structure Description: PSL(3,2)
+
+Intersection Density Upper: -1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: []
+
+Eigenvalues: [(-8, 36), (-6, 49), (6, 82), (90, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

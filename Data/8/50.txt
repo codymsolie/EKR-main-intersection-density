@@ -1,0 +1,36 @@
+Transitive group number 50 of degree 8
+
+Order: 40320
+
+Structure Description: S8
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 8
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 3, 4, 5, 21]
+
+Eigenvalues: [(-2119, 49), (-89, 784), (-77, 4096), (-71, 1225), (-19, 1764), (-17, 3136), (-7, 9438), (1, 49), (7, 400), (11, 784), (13, 196), (17, 1225), (21, 8100), (23, 3136), (25, 4900), (53, 196), (353, 441), (371, 400), (14833, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique', 'Group has the strict EKR property']
+
+Strict EKR Property: True as ['Group is two transitive and gets strict EKR from the module method']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: True
+

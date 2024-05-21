@@ -1,0 +1,36 @@
+Transitive group number 94 of degree 12
+
+Order: 192
+
+Structure Description: C4 x ((C4 x C4) : C3)
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 31]
+
+Eigenvalues: [(-37, 2), (-9, 27), (-1, 81), (3, 81), (155, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

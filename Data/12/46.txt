@@ -2,15 +2,25 @@ Transitive group number 46 of degree 12
 
 Order: 72
 
-Intersection Density: 3
+Structure Description: (C3 x C3) : C8
+
+Intersection Density Upper: 3
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-18, 3), (0, 68), (54, 1)]
+
+Join: True
+
+Complete Multipartite: True
 
 EKR Property: False as ['A coclique of size larger than |G|/n exists']
 

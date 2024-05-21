@@ -2,7 +2,13 @@ Transitive group number 29 of degree 12
 
 Order: 48
 
-Intersection Density: 1
+Structure Description: C4 x A4
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1]
 
 Eigenvalues: [(-7, 5), (-1, 24), (1, 18), (41, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

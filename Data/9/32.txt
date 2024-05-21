@@ -2,7 +2,13 @@ Transitive group number 32 of degree 9
 
 Order: 1512
 
-Intersection Density: 1
+Structure Description: PSL(2,8) : C3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 3
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1]
 
 Eigenvalues: [(-70, 64), (-16, 98), (-7, 128), (0, 729), (8, 441), (56, 51), (560, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Ratiobound gives EKR property', 'Group has a clique of size n']
 

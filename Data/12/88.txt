@@ -1,0 +1,36 @@
+Transitive group number 88 of degree 12
+
+Order: 192
+
+Structure Description: C2 x (((C2 x C2 x C2 x C2) : C2) : C3)
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [4, 7]
+
+Eigenvalues: [(-51, 2), (-5, 36), (-3, 18), (-1, 24), (1, 72), (3, 36), (13, 3), (141, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

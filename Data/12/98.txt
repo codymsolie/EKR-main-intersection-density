@@ -1,0 +1,36 @@
+Transitive group number 98 of degree 12
+
+Order: 192
+
+Structure Description: ((C4 x C4) : C3) : C4
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [5, 31]
+
+Eigenvalues: [(-19, 4), (-13, 18), (-11, 9), (-1, 24), (1, 72), (3, 54), (5, 10), (149, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

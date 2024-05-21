@@ -1,0 +1,36 @@
+Transitive group number 16 of degree 14
+
+Order: 336
+
+Structure Description: PSL(3,2) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2]
+
+Eigenvalues: [(-120, 1), (-8, 108), (0, 98), (6, 128), (216, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

@@ -1,0 +1,36 @@
+Transitive group number 84 of degree 12
+
+Order: 144
+
+Structure Description: (C3 x C3) : QD16
+
+Intersection Density Upper: 3
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [46, 47]
+
+Eigenvalues: [(-54, 1), (-18, 4), (0, 136), (18, 2), (90, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: False as ['A coclique of size larger than |G|/n exists']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

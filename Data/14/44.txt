@@ -1,0 +1,36 @@
+Transitive group number 44 of degree 14
+
+Order: 2688
+
+Structure Description: C2 x ((C2 x C2 x C2 x C2 x C2 x C2) : (C7 : C3))
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 6]
+
+Eigenvalues: [(-129, 49), (-127, 18), (-1, 1197), (1, 1323), (63, 98), (321, 2), (1665, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

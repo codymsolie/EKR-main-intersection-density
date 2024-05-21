@@ -2,7 +2,13 @@ Transitive group number 11 of degree 8
 
 Order: 16
 
-Intersection Density: 1
+Structure Description: (C4 x C2) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [2, 4, 5]
 
 Eigenvalues: [(-3, 3), (-1, 8), (1, 4), (13, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

@@ -2,7 +2,13 @@ Transitive group number 38 of degree 8
 
 Order: 192
 
-Intersection Density: 1
+Structure Description: (((C2 x C2 x C2 x C2) : C2) : C2) : C3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [2, 3, 4, 5, 21]
 
 Eigenvalues: [(-17, 16), (-15, 9), (-1, 48), (1, 84), (7, 32), (17, 2), (113, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

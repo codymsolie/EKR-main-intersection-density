@@ -2,15 +2,25 @@ Transitive group number 21 of degree 8
 
 Order: 32
 
-Intersection Density: 1
+Structure Description: (C2 x C2 x C2) : C4
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
 Minimally Transitive: True
 
-Indices of Minimally Transitive Subgroups: none as group is minimally transitive
+Indices of Minimally Transitive Subgroups: []
 
 Eigenvalues: [(-7, 3), (-1, 16), (1, 12), (25, 1)]
+
+Join: True
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 

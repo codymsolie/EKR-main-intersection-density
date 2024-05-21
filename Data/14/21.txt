@@ -1,0 +1,36 @@
+Transitive group number 21 of degree 14
+
+Order: 448
+
+Structure Description: (C2 x C2 x C2 x C2 x C2 x C2) : C7
+
+Intersection Density Upper: 2
+
+Intersection Density Lower: 2
+
+Intersection Density Exact: 2
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [6]
+
+Eigenvalues: [(-64, 6), (0, 441), (384, 1)]
+
+Join: True
+
+Complete Multipartite: True
+
+EKR Property: False as ['A coclique of size larger than |G|/n exists']
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

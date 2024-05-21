@@ -1,0 +1,36 @@
+Transitive group number 60 of degree 12
+
+Order: 96
+
+Structure Description: ((C4 x C4) : C2) : C3
+
+Intersection Density Upper: -1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [7, 31]
+
+Eigenvalues: [(-22, 2), (-6, 9), (-2, 36), (2, 48), (74, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

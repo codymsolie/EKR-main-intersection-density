@@ -2,7 +2,13 @@ Transitive group number 40 of degree 8
 
 Order: 192
 
-Intersection Density: 1
+Structure Description: (((C2 x C2 x C2) : (C2 x C2)) : C3) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
 
 Transitivity: 1
 
@@ -11,6 +17,10 @@ Minimally Transitive: False
 Indices of Minimally Transitive Subgroups: [1, 2, 3, 4, 5]
 
 Eigenvalues: [(-19, 9), (-15, 16), (-3, 35), (1, 36), (3, 64), (5, 27), (9, 4), (117, 1)]
+
+Join: False
+
+Complete Multipartite: False
 
 EKR Property: True as ['Group has a clique of size n']
 
