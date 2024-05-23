@@ -6,9 +6,9 @@ Structure Description: (C3 x C3) : Q8
 
 Intersection Density Upper: 3
 
-Intersection Density Lower: 1
+Intersection Density Lower: 3
 
-Intersection Density Exact: -1
+Intersection Density Exact: 3
 
 Transitivity: 1
 

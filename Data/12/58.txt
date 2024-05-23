@@ -6,9 +6,9 @@ Structure Description: ((C2 x C2 x C2 x C2) : C2) : C3
 
 Intersection Density Upper: 2
 
-Intersection Density Lower: 1
+Intersection Density Lower: 2
 
-Intersection Density Exact: -1
+Intersection Density Exact: 2
 
 Transitivity: 1
 
