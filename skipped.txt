@@ -109,3 +109,21 @@ Transitive group number 17 of degree 12
 Transitive group number 23 of degree 12
 
 
+Transitive group number 17 of degree 12
+
+
+Transitive group number 23 of degree 12
+
+
+Transitive group number 31 of degree 12
+
+
+Transitive group number 34 of degree 12
+
+
+Transitive group number 40 of degree 12
+
+
+Transitive group number 41 of degree 12
+
+

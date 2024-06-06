@@ -12,30 +12,12 @@ class Intersection_Density:
         self.exact_value = self._get_exact_value()
 
     def _get_upper_bound(self):
-        if self.has_ekr:   
-            return 1
-        if len(self.G.larger_than_stabilizer_cocliques) >= 1: 
-            # we have at least one subgroup which is larger than the stabilizer of a point, so
-            # gather all subgroups with size larger than stabilizer in a list, and compute its size:
-            size = max([subgroup.order() for subgroup in self.G.larger_than_stabilizer_cocliques])
-            # use the largest order (size) to calculate an upper bound on intersection density:
-            return size / (self.G.size_of_stabilizer)
-        # CLIQUE/COCLIQUE
-        else:
-            largest_clique_size = -1  #initializing variable
-
-            for subgroup_cc in self.G.subgroups: #remember, G.subgroups gives conjugacy classes
-
-                if subgroup_cc.representative().order() <= self.G.order:
-                    for subgroup in subgroup_cc:
-                        sub_common = Common(subgroup)
-                        if sub_common.min_eigenvalue == -1 and sub_common.order > largest_clique_size:
-                            largest_clique_size = sub_common.order
-                            
-            return largest_clique_size
-
-        return -1 # testing
-
+      return max(
+        int(self.has_ekr),
+        int(self.ub_larger_than_stabilizer_cocliques(self.G)),
+        int(self.ub_clique_coclique(self.G)),
+        int(self.ub_no_homomorphism(self.G))
+      )
     def _get_lower_bound(self):
         return 1 #1 is the lowest we can get.
 
@@ -64,3 +46,25 @@ class Intersection_Density:
             #if non_der_ekr.has_ekr:
                 #return 1
         return -1
+
+    # HELPER FUNCTIONS
+
+    def ub_larger_than_stabilizer_cocliques(G):
+      if len(self.G.larger_than_stabilizer_cocliques) >= 1
+         return (max([subgroup.order() for subgroup in self.G.larger_than_stabilizer_cocliques]))/(self.G.size_of_stabilizer)
+
+    def ub_clique_coclique(G):
+      largest_clique_size = -1 #initializing
+      for subgroup in self.G.subgroups:
+        subgroup_common = Common(subgroup)
+          if subgroup_common.min_eigenvalue == -1 and subgroup_common.order > largest_clique_size:
+            largest_clique_size = subgroup_common.order
+      return G.order / largest_clique_size
+
+    def ub_no_homomorphism(G):
+      if G.minimally_transitive: return -1
+      else:
+        
+         minimally_transitive_subgroups = [G for G in self.subgroups if G.] 
+
+ 
