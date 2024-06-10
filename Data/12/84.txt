@@ -4,7 +4,7 @@ Order: 144
 
 Structure Description: (C3 x C3) : QD16
 
-Intersection Density Upper: -144
+Intersection Density Upper: 3
 
 Intersection Density Lower: 1
 

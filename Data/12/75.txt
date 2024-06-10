@@ -4,7 +4,7 @@ Order: 120
 
 Structure Description: C2 x A5
 
-Intersection Density Upper: None
+Intersection Density Upper: 2
 
 Intersection Density Lower: 1
 

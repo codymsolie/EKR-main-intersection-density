@@ -4,7 +4,7 @@ Order: 48
 
 Structure Description: C2 x S4
 
-Intersection Density Upper: 4
+Intersection Density Upper: 2
 
 Intersection Density Lower: 1
 
