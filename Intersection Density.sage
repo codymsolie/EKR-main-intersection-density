@@ -14,23 +14,12 @@ class Intersection_Density:
     def _get_upper_bound(self):
       if self.has_ekr:
         return 1
-
-      upper_bound = self.G.order / 2 #initialize to worst bound possible
-      # by clique coclique bound with clique size 2
-
-      new_bound = self.ub_larger_than_stabilizer_cocliques()
-      if new_bound < upper_bound:
-        upper_bound = new_bound
-
-      new_bound = self.ub_clique_coclique()
-      if new_bound < upper_bound:
-        upper_bound = new_bound
-
-      new_bound = self.ub_no_homomorphism()
-      if new_bound < upper_bound:
-        upper_bound = new_bound
-
-      return upper_bound
+      return min([
+        (self.G.order / 2),
+        self.ub_larger_than_stabilizer_cocliques(),
+        self.ub_clique_coclique(),
+        self.ub_no_homomorphism()
+      ])
 
     def _get_lower_bound(self):
         # use clique/coclique somehow (???)
@@ -95,7 +84,7 @@ class Intersection_Density:
           subgroup = TransitiveGroup(self.G.degree, id)
           sub_common = Common(subgroup)
           sub_ekr = EKR_Determiner(sub_common)
-          if s_ekr.has_ekr:
+          if sub_ekr.has_ekr:
             return 1
           sub_int_dens = Intersection_Density(sub_common, sub_ekr)
           if sub_int_dens.upper_bound < min_int_dens:
