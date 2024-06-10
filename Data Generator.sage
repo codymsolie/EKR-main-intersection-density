@@ -21,7 +21,7 @@ class Data_Generator:
                 print("Strict EKR property determined")
 
                 print("Determining Intersection Density")
-                intersection_density = Intersection_Density(common, ekr, ekrm)
+                intersection_density = Intersection_Density(common, ekr)
                 print("Intersection Density determined")
         
                 print("Saving data")
