@@ -26,3 +26,26 @@
 
     ##############################################################
     '''
+
+
+
+####### JUNE 10TH 2024 ########
+
+    #upper_bound = self.G.order / 2 #initialize to worst bound possible
+      # by clique coclique bound with clique size 2
+
+    #new_bound = self.ub_larger_than_stabilizer_cocliques()
+    # if new_bound < upper_bound:
+    # upper_bound = new_bound
+
+    # new_bound = self.ub_clique_coclique()
+    # if new_bound < upper_bound:
+    #   upper_bound = new_bound
+
+    # new_bound = self.ub_no_homomorphism()
+    # if new_bound < upper_bound:
+  #   upper_bound = new_bound
+
+  # return upper_bound
+
+
