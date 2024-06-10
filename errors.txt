@@ -20,3 +20,9 @@ hello this is cody
 hello again
 
 hello thrice
+While checking the EKR properties of Transitive group number 4 of degree 6 we encountered the error name 'G' is not defined
+
+
+While checking the EKR properties of Transitive group number 4 of degree 6 we encountered the error name 'G' is not defined
+
+

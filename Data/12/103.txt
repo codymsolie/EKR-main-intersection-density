@@ -1,20 +1,20 @@
-Transitive group number 95 of degree 12
+Transitive group number 103 of degree 12
 
 Order: 192
 
-Structure Description: C2 x (((C4 x C4) : C3) : C2)
+Structure Description: C2 x (((C2 x C2 x C2 x C2) : C3) : C2)
 
-Intersection Density Upper: None
+Intersection Density Upper: 1
 
 Intersection Density Lower: 1
 
-Intersection Density Exact: -1
+Intersection Density Exact: 1
 
 Transitivity: 1
 
 Minimally Transitive: False
 
-Indices of Minimally Transitive Subgroups: [31]
+Indices of Minimally Transitive Subgroups: [3, 4, 7, 9]
 
 Eigenvalues: [(-19, 4), (-13, 18), (-11, 9), (-1, 24), (1, 72), (3, 54), (5, 10), (149, 1)]
 
@@ -22,11 +22,11 @@ Join: False
 
 Complete Multipartite: False
 
-EKR Property: None as []
+EKR Property: True as ['Group has a clique of size n']
 
 EKRM Property: None as []
 
-Strict EKR Property: False as ['Group does not have the EKR property']
+Strict EKR Property: None as []
 
 Abelian: False
 

@@ -4,11 +4,11 @@ Order: 96
 
 Structure Description: ((C4 x C2) : C4) : C3
 
-Intersection Density Upper: 1
+Intersection Density Upper: None
 
 Intersection Density Lower: 1
 
-Intersection Density Exact: 1
+Intersection Density Exact: -1
 
 Transitivity: 1
 

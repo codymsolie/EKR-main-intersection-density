@@ -4,11 +4,11 @@ Order: 48
 
 Structure Description: C2 x S4
 
-Intersection Density Upper: 1
+Intersection Density Upper: 4
 
 Intersection Density Lower: 1
 
-Intersection Density Exact: 1
+Intersection Density Exact: -1
 
 Transitivity: 1
 

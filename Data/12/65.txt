@@ -4,7 +4,7 @@ Order: 96
 
 Structure Description: ((C4 x C4) : C3) : C2
 
-Intersection Density Upper: -1
+Intersection Density Upper: None
 
 Intersection Density Lower: 1
 

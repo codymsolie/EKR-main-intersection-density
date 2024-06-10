@@ -1,0 +1,36 @@
+Transitive group number 112 of degree 12
+
+Order: 192
+
+Structure Description: (((C4 x C4) : C2) : C3) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [3, 7, 9, 31]
+
+Eigenvalues: [(-22, 4), (-18, 9), (-10, 1), (-6, 36), (-2, 9), (2, 112), (6, 18), (14, 2), (134, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

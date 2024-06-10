@@ -127,3 +127,9 @@ Transitive group number 40 of degree 12
 Transitive group number 41 of degree 12
 
 
+Transitive group number 4 of degree 6
+
+
+Transitive group number 4 of degree 6
+
+
