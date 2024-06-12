@@ -18,14 +18,15 @@ class Intersection_Density:
         return 1
       return min([
         (self.G.order / 2),
-        self.ub_larger_than_stabilizer_cocliques(),
         self.ub_clique_coclique(),
-        self.ub_no_homomorphism()
+        self.ub_no_homomorphism(),
+        self.ub_ratio_bound()  # needs work
       ])
 
     def _get_lower_bound(self):
-        # use clique/coclique somehow (???)
+      if self.has_ekr
         return 1
+      return self.lb_larger_than_stabilizer_cocliques() #this is our only lower bound
 
     def _get_exact_value(self):
       if self.has_ekr:
@@ -55,9 +56,11 @@ class Intersection_Density:
 
 ###### HELPER FUNCTIONS
 
-    def ub_larger_than_stabilizer_cocliques(self):
+    def lb_larger_than_stabilizer_cocliques(self):
       if len(self.G.larger_than_stabilizer_cocliques) >= 1:
-        max_size = int(max([subgroup.order() for subgroup in self.G.larger_than_stabilizer_cocliques]))
+        max_size = int(max([
+          subgroup.order() for subgroup in self.G.larger_than_stabilizer_cocliques
+        ]))
         return max_size / self.G.size_of_stabilizer
       return (self.G.order / 2) # worst possible bound if nothing is found here
 
@@ -67,10 +70,12 @@ class Intersection_Density:
         subgroup_common = Common(subgroup)
         if subgroup_common.min_eigenvalue == -1 and subgroup_common.order > largest_clique_size:
           largest_clique_size = subgroup_common.order
-      return (self.G.order / largest_clique_size)
+      return (self.G.degree / largest_clique_size)
 
 
     # need to determine how to reuse already-computed results
+    # will be using a database to store computations
+
     def ub_no_homomorphism(self):
       min_int_dens = (self.G.order / 2)
       if not self.G.minimally_transitive:
@@ -84,6 +89,12 @@ class Intersection_Density:
           if sub_int_dens.upper_bound < min_int_dens:
             min_int_dens = sub_int_dens.upper_bound
       return min_int_dens
+
+    def ub_ratio_bound(self):
+      if self.has_ekr:
+        return 1
+      return self.G.degree / 1 + self.G.max_eigenvalue #max_wtd_evalue
+      # line above this is just a placeholder until gurobi arrives
 
     def subgroup_by_non_derangements(self):
       non_derangements = [] # holds all non-derangement elements of G

@@ -18,7 +18,7 @@ class EKR_Determiner:
                 self.has_ekr = True
                 self.reasons.append("Ratiobound gives EKR property")
 
-            if self.G.n_cliques:
+            if self.G.n_cliques:  # should this be elif?
                 self.has_ekr = True
                 self.reasons.append("Group has a clique of size n")
             else:
