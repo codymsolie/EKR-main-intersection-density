@@ -147,7 +147,7 @@ class EKR_Determiner:
                 weightings.append(weighting)
         
         weighted_ratiobound = self.G.order/(1 + maximum_eigenvalue)
-        size_of_stabilizer = self.G.order/self.G.degree
+        size_of_stabilizer = self.G.size_of_stabilizer
 
         if abs(weighted_ratiobound - size_of_stabilizer) < tolerance:
             return (True, weightings)
