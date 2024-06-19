@@ -154,3 +154,51 @@ Transitive group number 13 of degree 6
 Transitive group number 14 of degree 6
 
 
+Transitive group number 1 of degree 6
+
+
+Transitive group number 2 of degree 6
+
+
+Transitive group number 3 of degree 6
+
+
+Transitive group number 4 of degree 6
+
+
+Transitive group number 5 of degree 6
+
+
+Transitive group number 6 of degree 6
+
+
+Transitive group number 7 of degree 6
+
+
+Transitive group number 8 of degree 6
+
+
+Transitive group number 1 of degree 6
+
+
+Transitive group number 2 of degree 6
+
+
+Transitive group number 3 of degree 6
+
+
+Transitive group number 4 of degree 6
+
+
+Transitive group number 5 of degree 6
+
+
+Transitive group number 6 of degree 6
+
+
+Transitive group number 7 of degree 6
+
+
+Transitive group number 8 of degree 6
+
+

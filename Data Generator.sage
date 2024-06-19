@@ -88,7 +88,7 @@ class Data_Generator:
     
     def _get_nice_eigenvalues(self, common):
         eigenvalues = common.eigenvalues
-        unique_eigenvalues = set(eigenvalues)
+        unique_eigenvalues = set(eigenvalues)  #these two lines remove duplicate eigenvalues in the output
         eigenvalues = list(unique_eigenvalues)
         eigenvalues_with_multiplicities = common.eigenvalues_with_multiplicities
 
@@ -131,17 +131,26 @@ class Data_Generator:
             database = "intersection_density"
           )
           print("Connected to MariaDB!\n")
-        
         except mariadb.Error as e:
           print(f"Error connecting to MariaDB platform: {e}")
           sys.exit(1)
-
         cursor = conn.cursor()
-        # explicit typecasting because db can't read sagemath data types! 
-        try: 
+
+#### GROUP DB ####
+ 
+        cursor.execute(
+          "SELECT group_id FROM Groups WHERE degree=? AND gap_id=?",
+          (int(degree), int(number)))
+
+        if not cursor:    
           cursor.execute(
-            "INSERT INTO Groups (name,degree,gap_id,size,struc_desc,int_dens_hi,int_dens_lo,int_dens,transitivity,min_trans,is_join,is_cmp,ekr,ekrm,sekr,is_abelian,is_nilpotent,is_primitive) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-            (str(name), 
+            "INSERT INTO Groups "\
+            "(name,degree,gap_id,size,struc_desc"\
+            ",int_dens_hi,int_dens_lo,int_dens,transitivity"\
+            ",min_trans,is_join,is_cmp,ekr,ekrm,sekr"\
+            ",is_abelian,is_nilpotent,is_primitive) VALUES "\
+            "(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+             (str(name), 
              int(degree), 
              int(number), 
              int(order), 
@@ -160,51 +169,97 @@ class Data_Generator:
              bool(nilpotent),
              bool(primitive))
           )
-        except mariadb.Error as e:
-          print(f"Error: {e}")
+        else:
+          group_id = cursor[0]
+          cursor.execute(
+            "UPDATE Groups SET"\
+            "name=?,"\
+            "degree=?,"\
+            "gap_id=?,"\
+            "size=?,"\
+            "struc_desc=?,"\
+            "int_dens_hi=?,"\
+            "int_dens_lo=?,"\
+            "int_dens=?,"\
+            "transitivity=?,"\
+            "min_trans=?,"\
+            "is_join=?,"\
+            "is_cmp=?,"\
+            "ekr=?,"\
+            "ekrm=?,"\
+            "sekr=?,"\
+            "is_abelian=?,"\
+            "is_nilpotent=?,"\
+            "is_primitive=? "\
+            "WHERE group_id=?",
+             (str(name), 
+             int(degree), 
+             int(number), 
+             int(order), 
+             str(structure_description),
+             float(intersection_density_upper),
+             float(intersection_density_lower),
+             float(intersection_density_exact),
+             int(transitivity),
+             bool(minimally_transitive),
+             bool(is_a_join),
+             bool(is_a_complete_multipartite),
+             bool(ekr),
+             bool(ekrm),
+             bool(sekr),
+             bool(abelian),
+             bool(nilpotent),
+             bool(primitive)))
         
         conn.commit()
 
-        group_id = cursor.lastrowid #used to link the tables together
+        group_id = cursor.lastrowid # used to link the tables together below
 
 ##### MINIMALLY TRANSITIVE SUBGROUPS DB ####
-    
-        for subgroup in minimally_transitive_subgroups:
-          cursor.execute(
-            "INSERT INTO Subgroups (group_id,degree,gap_id) VALUES (?, ?, ?)", 
-            (group_id,int(degree),int(subgroup))
-        ) 
+
+        cursor.execute(
+          "SELECT subgroup_id FROM Subgroups WHERE group_id=?",
+          (group_id)) # checks to see if records for this group already exist
+
+        if not cursor:
+          for subgroup in minimally_transitive_subgroups:
+            cursor.execute(
+              "INSERT INTO Subgroups (group_id,degree,gap_id) VALUES (?, ?, ?)", 
+              (group_id,int(degree),int(subgroup)))
+        else:
+          subgroup_ids = cursor
+          for subgroup_id in subgroup_ids:
+            cursor.execute(
+              "UPDATE Subgroups SET"\
+              "group_id=?,"\
+              "degree=?,"\
+              "subgroup=?"\
+              "WHERE subgroup_id=?",
+              (group_id, int(degree), int(subgroup), subgroup_id))
         conn.commit()
 
 #### EIGENVALUES DB ####
 
-        for pair in eigenvalues:
-          cursor.execute(
-            "INSERT INTO Eigenvalues (group_id, eigenvalue, multiplicity) VALUES (?, ?, ?)",
-            (group_id, int(pair[0]), int(pair[1])))
+        cursor.execute(
+          "SELECT evalue_id FROM Eigenvalues WHERE group_id=?",
+          (group_id)) # checks to see if records for this group already exist
+
+        if not cursor:
+          for pair in eigenvalues:
+            cursor.execute(
+              "INSERT INTO Eigenvalues (group_id, eigenvalue, multiplicity) VALUES (?, ?, ?)",
+              (group_id, int(pair[0]), int(pair[1])))
+        else:
+          evalue_ids = cursor
+          for evalue_id in evalue_ids:
+            for pair in eigenvalues:
+              cursor.execute(
+                "UPDATE Eigenvalues SET"\
+                "group_id=?,"\
+                "eigenvalue=?,"\
+                "multiplicity=?,"\
+                "WHERE evalue_id=?",
+                (group_id, int(pair[0]), int(pair[1]), evalue_id))
+
         conn.commit() 
         conn.close()
-
-        contents = f"{name}\n\n"
-        contents += f"Order: {order}\n\n"
-        contents += f"Structure Description: {structure_description}\n\n"
-        contents += f"Intersection Density Upper: {intersection_density_upper}\n\n"
-        contents += f"Intersection Density Lower: {intersection_density_lower}\n\n"
-        contents += f"Intersection Density Exact: {intersection_density_exact}\n\n"
-        contents += f"Transitivity: {transitivity}\n\n"
-        contents += f"Minimally Transitive: {minimally_transitive}\n\n"
-        contents += f"Indices of Minimally Transitive Subgroups: {minimally_transitive_subgroups}\n\n"
-        contents += f"Eigenvalues: {eigenvalues}\n\n"
-        contents += f"Join: {is_a_join}\n\n"
-        contents += f"Complete Multipartite: {is_a_complete_multipartite}\n\n"
-        contents += f"EKR Property: {ekr} as {ekr_reasons}\n\n"
-        contents += f"EKRM Property: {ekrm} as {ekrm_reasons}\n\n"
-        contents += f"Strict EKR Property: {sekr} as {sekr_reasons}\n\n"
-        contents += f"Abelian: {abelian}\n\n"
-        contents += f"Nilpotent: {nilpotent}\n\n"
-        contents += f"Primitive: {primitive}\n\n"
-
-        data_file = open(f"Data/{degree}/{number}.txt", "w")
-        data_file.write(contents)
-        data_file.close()
-   
