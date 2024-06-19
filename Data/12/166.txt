@@ -1,0 +1,36 @@
+Transitive group number 166 of degree 12
+
+Order: 576
+
+Structure Description: (C2 x C2 x C2 x C2 x C2 x C2) : C9
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: True
+
+Indices of Minimally Transitive Subgroups: []
+
+Eigenvalues: [(-165, 2), (-9, 81), (-1, 243), (3, 243), (27, 6), (411, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

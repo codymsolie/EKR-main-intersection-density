@@ -1,0 +1,36 @@
+Transitive group number 160 of degree 12
+
+Order: 576
+
+Structure Description: (A4 x A4) : C4
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [17]
+
+Eigenvalues: [(-188, 1), (-32, 16), (-12, 36), (-4, 162), (0, 144), (4, 162), (12, 36), (16, 16), (28, 2), (388, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

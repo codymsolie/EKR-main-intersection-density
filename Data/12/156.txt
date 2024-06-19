@@ -1,0 +1,36 @@
+Transitive group number 156 of degree 12
+
+Order: 432
+
+Structure Description: ((S3 x S3) : C2) x S3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 3, 5, 17]
+
+Eigenvalues: [(-132, 1), (-48, 4), (-18, 2), (-9, 64), (-3, 40), (0, 128), (3, 176), (6, 4), (9, 8), (30, 2), (36, 2), (300, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

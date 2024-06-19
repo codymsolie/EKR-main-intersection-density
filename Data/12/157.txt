@@ -1,0 +1,36 @@
+Transitive group number 157 of degree 12
+
+Order: 432
+
+Structure Description: (((C3 x C3) : Q8) : C3) : C2
+
+Intersection Density Upper: 2
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: -1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [46, 47]
+
+Eigenvalues: [(-54, 9), (-24, 8), (-6, 129), (3, 256), (12, 16), (18, 9), (30, 4), (210, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: None as []
+
+EKRM Property: None as []
+
+Strict EKR Property: False as ['Group does not have the EKR property']
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

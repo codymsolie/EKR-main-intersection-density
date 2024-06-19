@@ -7,7 +7,10 @@ class EKR_Determiner:
         self.reasons = []
 
         #weightings is used (if we have some) to pass weighting information along to the EKRM determiner
+        #max_wtd_eigenvalue for use in intersection density ratio bound
+
         self.weightings = None
+        self.max_wtd_eigenvalue = None 
 
         if self.G.larger_than_stabilizer_cocliques:
             self.has_ekr = False
@@ -145,7 +148,9 @@ class EKR_Determiner:
                 index_of_space = line.index(" ")
                 weighting = float(line[index_of_space + 1:])
                 weightings.append(weighting)
-        
+
+        self.max_wtd_eigenvalue = maximum_eigenvalue
+
         weighted_ratiobound = self.G.order/(1 + maximum_eigenvalue)
         size_of_stabilizer = self.G.size_of_stabilizer
 

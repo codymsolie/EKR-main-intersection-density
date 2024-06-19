@@ -1,5 +1,9 @@
+import mariadb
+import sys
+
 class Data_Generator:
     def __init__(self, groups):
+
         groups_left = len(groups)
         for group in groups:
             try:
@@ -118,7 +122,50 @@ class Data_Generator:
         abelian = data["abelian"]
         nilpotent = data["nilpotent"]
         primitive = data["primitive"]
+
+        try:
+          conn = mariadb.connect(
+            user = "int_dens",
+            password = "dbpass",
+            host = "localhost",
+            database = "intersection_density"
+          )
+          print("Connected to MariaDB!\n")
         
+        except mariadb.Error as e:
+          print(f"Error connecting to MariaDB platform: {e}")
+          sys.exit(1)
+
+        cursor = conn.cursor()
+        try: 
+          cursor.execute(
+            "INSERT INTO Groups (name,degree,gap_id,size,struc_desc,int_dens_hi,int_dens_lo,int_dens,transitivity,min_trans,is_join,is_cmp,ekr,ekrm,sekr,is_abelian,is_nilpotent,is_primitive) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            (str(name), 
+             int(degree), 
+             int(number), 
+             int(order), 
+             str(structure_description),
+             float(intersection_density_upper),
+             float(intersection_density_lower),
+             float(intersection_density_exact),
+             int(transitivity),
+             bool(minimally_transitive),
+             bool(is_a_join),
+             bool(is_a_complete_multipartite),
+             bool(ekr),
+             bool(ekrm),
+             bool(sekr),
+             bool(abelian),
+             bool(nilpotent),
+             bool(primitive))
+          )
+        except mariadb.Error as e:
+          print(f"Error: {e}")
+
+        conn.commit()
+        conn.close()
+        # explicit typecasting because db can't read sagemath data types! 
+
         contents = f"{name}\n\n"
         contents += f"Order: {order}\n\n"
         contents += f"Structure Description: {structure_description}\n\n"

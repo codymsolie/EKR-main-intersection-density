@@ -1,0 +1,36 @@
+Transitive group number 169 of degree 12
+
+Order: 648
+
+Structure Description: (C3 x C3 x C3 x C3) : D8
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 2, 3, 5, 17]
+
+Eigenvalues: [(-227, 1), (-65, 4), (-8, 64), (-2, 256), (1, 128), (4, 192), (97, 2), (421, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

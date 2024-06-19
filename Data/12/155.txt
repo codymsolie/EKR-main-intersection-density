@@ -1,0 +1,36 @@
+Transitive group number 155 of degree 12
+
+Order: 384
+
+Structure Description: (((C2 x C2 x C2 x C2) : C3) : C4) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [1, 5]
+
+Eigenvalues: [(-103, 1), (-31, 8), (-9, 36), (-7, 18), (-1, 120), (1, 144), (7, 36), (9, 18), (41, 2), (281, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

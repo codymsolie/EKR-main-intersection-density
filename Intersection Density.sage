@@ -3,10 +3,13 @@
 # this file uses results from common and ekr_determiner to compute upper and lower bounds
 # on the intersection density of a group, as well as an exact value if it is known.
 
+import mariadb
+
 class Intersection_Density:
     def __init__(self, G, ekr_determiner):
         self.G = G
         self.has_ekr = ekr_determiner.has_ekr
+        self.max_wtd_eigenvalue = ekr_determiner.max_wtd_eigenvalue
         self.upper_bound = self._get_upper_bound()
         self.lower_bound = self._get_lower_bound()
         self.exact_value = self._get_exact_value()
@@ -20,11 +23,13 @@ class Intersection_Density:
         (self.G.order / 2),
         self.ub_clique_coclique(),
         self.ub_no_homomorphism(),
-        self.ub_ratio_bound()  # needs work
+        self.ub_ratio_bound() 
       ])
 
     def _get_lower_bound(self):
-      if self.has_ekr
+      if self.has_ekr:
+        return 1
+      if self.upper_bound == 1:
         return 1
       return self.lb_larger_than_stabilizer_cocliques() #this is our only lower bound
 
@@ -47,6 +52,7 @@ class Intersection_Density:
         non_der_ekr = EKR_Determiner(non_der_common)
         non_der_int_dens = Intersection_Density(non_der_common, non_der_ekr)
         if non_der_int_dens.upper_bound < self.upper_bound:
+          print("\nnon derangement gives upper bound\n")
           self.upper_bound = non_der_int_dens.upper_bound
         if non_der_int_dens.lower_bound > self.lower_bound:
           self.lower_bound = non_der_int_dens.lower_bound
@@ -62,14 +68,17 @@ class Intersection_Density:
           subgroup.order() for subgroup in self.G.larger_than_stabilizer_cocliques
         ]))
         return max_size / self.G.size_of_stabilizer
-      return (self.G.order / 2) # worst possible bound if nothing is found here
+      return 1 # worst possible bound if nothing is found here
 
     def ub_clique_coclique(self):
       largest_clique_size = 2 #initializing to smallest clique size 
       for subgroup in self.G.subgroups:
         subgroup_common = Common(subgroup)
-        if subgroup_common.min_eigenvalue == -1 and subgroup_common.order > largest_clique_size:
-          largest_clique_size = subgroup_common.order
+        if subgroup_common.min_eigenvalue == -1:
+          if subgroup_common.max_eigenvalue == (subgroup_common.order - 1):
+            if subgroup_common.order > largest_clique_size:
+              largest_clique_size = subgroup_common.order
+      print("Clique Coclique gives: ", self.G.degree/largest_clique_size)
       return (self.G.degree / largest_clique_size)
 
 
@@ -88,13 +97,15 @@ class Intersection_Density:
           sub_int_dens = Intersection_Density(sub_common, sub_ekr)
           if sub_int_dens.upper_bound < min_int_dens:
             min_int_dens = sub_int_dens.upper_bound
+      print("No Homomorphism gives: ", min_int_dens)
       return min_int_dens
 
     def ub_ratio_bound(self):
       if self.has_ekr:
         return 1
-      return self.G.degree / 1 + self.G.max_eigenvalue #max_wtd_evalue
-      # line above this is just a placeholder until gurobi arrives
+      if not self.max_wtd_eigenvalue == None:
+        print("Ratio Bound gives: ", self.G.degree / (1 + int(round(self.max_wtd_eigenvalue))))
+        return self.G.degree / (1 + int(round(self.max_wtd_eigenvalue)))
 
     def subgroup_by_non_derangements(self):
       non_derangements = [] # holds all non-derangement elements of G

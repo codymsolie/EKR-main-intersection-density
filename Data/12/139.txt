@@ -1,0 +1,36 @@
+Transitive group number 139 of degree 12
+
+Order: 384
+
+Structure Description: C2 x C2 x (((C2 x C2 x C2 x C2) : C3) : C2)
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 3, 4, 7, 9]
+
+Eigenvalues: [(-37, 4), (-25, 27), (-1, 162), (3, 162), (7, 27), (11, 1), (299, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

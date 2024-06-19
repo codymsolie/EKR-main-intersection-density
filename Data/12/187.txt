@@ -1,0 +1,36 @@
+Transitive group number 187 of degree 12
+
+Order: 768
+
+Structure Description: (((C2 x ((C2 x C2 x C2 x C2) : C2)) : C2) : C2) : C3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 4, 7, 31, 57]
+
+Eigenvalues: [(-193, 2), (-37, 9), (-13, 39), (-9, 18), (-5, 90), (-1, 312), (3, 189), (7, 81), (11, 9), (15, 9), (23, 9), (575, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

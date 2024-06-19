@@ -1,0 +1,36 @@
+Transitive group number 127 of degree 12
+
+Order: 288
+
+Structure Description: (A4 x A4) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [2, 4, 5]
+
+Eigenvalues: [(-42, 4), (-10, 81), (2, 108), (6, 93), (30, 1), (174, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: True as ['The group has an n-clique and every module not in the permutation representation contains a maximum coclique']
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

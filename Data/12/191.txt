@@ -1,0 +1,36 @@
+Transitive group number 191 of degree 12
+
+Order: 768
+
+Structure Description: ((((C2 x ((C4 x C2) : C2)) : C2) : C2) : C3) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [3, 4, 7, 9, 31, 57]
+
+Eigenvalues: [(-103, 4), (-55, 9), (-25, 36), (-7, 54), (-1, 240), (1, 288), (7, 108), (25, 18), (41, 10), (521, 1)]
+
+Join: False
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

@@ -1,0 +1,36 @@
+Transitive group number 188 of degree 12
+
+Order: 768
+
+Structure Description: ((C2 x D8 x D8) : C2) : C3
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [4, 7, 31, 57]
+
+Eigenvalues: [(-207, 2), (-17, 36), (-15, 27), (-1, 312), (1, 336), (15, 36), (17, 18), (561, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

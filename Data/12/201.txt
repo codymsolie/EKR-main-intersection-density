@@ -1,0 +1,36 @@
+Transitive group number 201 of degree 12
+
+Order: 1152
+
+Structure Description: (S4 x S4) : C2
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [3, 7, 9, 17]
+
+Eigenvalues: [(-368, 1), (-50, 16), (-36, 36), (-14, 16), (-8, 2), (-6, 144), (-4, 324), (0, 198), (6, 144), (8, 162), (12, 36), (16, 32), (24, 36), (28, 4), (784, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['Group has a clique of size n']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+

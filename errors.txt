@@ -1,0 +1,126 @@
+While checking the EKR properties of Transitive group number 7 of degree 12 we encountered the error name 'ub_clique_coclique' is not defined
+
+
+While checking the EKR properties of Transitive group number 9 of degree 12 we encountered the error name 'ub_clique_coclique' is not defined
+
+
+While checking the EKR properties of Transitive group number 7 of degree 12 we encountered the error Unable to parse output: C2 x A4
+
+
+While checking the EKR properties of Transitive group number 9 of degree 12 we encountered the error Unable to parse output: S4
+
+
+While checking the EKR properties of Transitive group number 17 of degree 12 we encountered the error Unable to parse output: (C3 x C3) : C4
+
+
+While checking the EKR properties of Transitive group number 7 of degree 12 we encountered the error Unable to parse output: C2 x A4
+
+
+While checking the EKR properties of Transitive group number 9 of degree 12 we encountered the error Unable to parse output: S4
+
+
+While checking the EKR properties of Transitive group number 7 of degree 12 we encountered the error Unable to parse output: C2 x A4
+
+
+While checking the EKR properties of Transitive group number 9 of degree 12 we encountered the error Unable to parse output: S4
+
+
+While checking the EKR properties of Transitive group number 1 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 2 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 3 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 4 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 5 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 6 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 7 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 8 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 9 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 10 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 11 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 12 of degree 6 we encountered the error Data type 'sage.rings.integer.Integer' in column 1 not supported in MariaDB Connector/Python
+
+
+While checking the EKR properties of Transitive group number 1 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 2 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 3 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 4 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 5 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 6 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 7 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 8 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 9 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 10 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 11 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 12 of degree 6 we encountered the error Column count doesn't match value count at row 1
+
+
+While checking the EKR properties of Transitive group number 1 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+
+While checking the EKR properties of Transitive group number 2 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+
+While checking the EKR properties of Transitive group number 3 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+
+While checking the EKR properties of Transitive group number 4 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+
+While checking the EKR properties of Transitive group number 5 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+
+While checking the EKR properties of Transitive group number 6 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+
+While checking the EKR properties of Transitive group number 7 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+
+While checking the EKR properties of Transitive group number 8 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+
+While checking the EKR properties of Transitive group number 9 of degree 6 we encountered the error 'Cursor' object has no attribute 'commit'
+
+

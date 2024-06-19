@@ -1,0 +1,36 @@
+Transitive group number 198 of degree 12
+
+Order: 1152
+
+Structure Description: C2 x ((A4 x A4) : C4)
+
+Intersection Density Upper: 1
+
+Intersection Density Lower: 1
+
+Intersection Density Exact: 1
+
+Transitivity: 1
+
+Minimally Transitive: False
+
+Indices of Minimally Transitive Subgroups: [17]
+
+Eigenvalues: [(-359, 1), (-59, 16), (-33, 36), (-17, 4), (-7, 162), (-5, 16), (-3, 144), (-1, 324), (3, 144), (7, 16), (9, 234), (15, 36), (25, 16), (73, 2), (793, 1)]
+
+Join: True
+
+Complete Multipartite: False
+
+EKR Property: True as ['A weighting on derangement classes gives EKR']
+
+EKRM Property: None as []
+
+Strict EKR Property: None as []
+
+Abelian: False
+
+Nilpotent: False
+
+Primitive: False
+
