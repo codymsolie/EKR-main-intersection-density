@@ -137,6 +137,7 @@ class Data_Generator:
           sys.exit(1)
 
         cursor = conn.cursor()
+        # explicit typecasting because db can't read sagemath data types! 
         try: 
           cursor.execute(
             "INSERT INTO Groups (name,degree,gap_id,size,struc_desc,int_dens_hi,int_dens_lo,int_dens,transitivity,min_trans,is_join,is_cmp,ekr,ekrm,sekr,is_abelian,is_nilpotent,is_primitive) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
@@ -161,10 +162,28 @@ class Data_Generator:
           )
         except mariadb.Error as e:
           print(f"Error: {e}")
-
+        
         conn.commit()
+
+        group_id = cursor.lastrowid #used to link the tables together
+
+##### MINIMALLY TRANSITIVE SUBGROUPS DB ####
+    
+        for subgroup in minimally_transitive_subgroups:
+          cursor.execute(
+            "INSERT INTO Subgroups (group_id,degree,gap_id) VALUES (?, ?, ?)", 
+            (group_id,int(degree),int(subgroup))
+        ) 
+        conn.commit()
+
+#### EIGENVALUES DB ####
+
+        for pair in eigenvalues:
+          cursor.execute(
+            "INSERT INTO Eigenvalues (group_id, eigenvalue, multiplicity) VALUES (?, ?, ?)",
+            (group_id, int(pair[0]), int(pair[1])))
+        conn.commit() 
         conn.close()
-        # explicit typecasting because db can't read sagemath data types! 
 
         contents = f"{name}\n\n"
         contents += f"Order: {order}\n\n"

@@ -88,15 +88,34 @@ class Intersection_Density:
     def ub_no_homomorphism(self):
       min_int_dens = (self.G.order / 2)
       if not self.G.minimally_transitive:
+      
+        try:
+          conn = mariadb.connect(
+            user = "int_dens",
+            password = "dbpass",
+            host = "localhost",
+            database = "intersection_density"
+          )
+          print("Connected to MariaDB!\n")
+        
+        except mariadb.Error as e:
+          print(f"Error connecting to MariaDB platform: {e}")
+          sys.exit(1)
+
+        cursor = conn.cursor()
+
         for id in self.G.minimally_transitive_subgroups:
-          subgroup = TransitiveGroup(self.G.degree, id)
-          sub_common = Common(subgroup)
-          sub_ekr = EKR_Determiner(sub_common)
-          if sub_ekr.has_ekr:
+
+          cursor.execute(
+          "SELECT (ekr,int_dens_hi) FROM Groups WHERE gap_id=? AND degree=?",
+          (id, int(self.G.degree)))
+
+          if cursor[0][0]:
             return 1
-          sub_int_dens = Intersection_Density(sub_common, sub_ekr)
-          if sub_int_dens.upper_bound < min_int_dens:
-            min_int_dens = sub_int_dens.upper_bound
+
+          if cursor[0][1] < min_int_dens:
+            min_int_dens = cursor[0][1]
+
       print("No Homomorphism gives: ", min_int_dens)
       return min_int_dens
 
