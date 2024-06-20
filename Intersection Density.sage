@@ -134,5 +134,3 @@ class Intersection_Density:
              non_derangements.append(element)
       return PermutationGroup(non_derangements)
      
-
-

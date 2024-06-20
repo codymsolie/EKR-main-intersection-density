@@ -137,12 +137,17 @@ class Data_Generator:
         cursor = conn.cursor()
 
 #### GROUP DB ####
+
+        print("\nBEGINNING DATABASE QUERIES\n")
  
         cursor.execute(
           "SELECT group_id FROM Groups WHERE degree=? AND gap_id=?",
           (int(degree), int(number)))
 
-        if not cursor:    
+        record_exists = cursor.rowcount
+
+        if not record_exists:
+          print("\nNEW GROUP TO INSERT\n")
           cursor.execute(
             "INSERT INTO Groups "\
             "(name,degree,gap_id,size,struc_desc"\
@@ -169,10 +174,11 @@ class Data_Generator:
              bool(nilpotent),
              bool(primitive))
           )
-        else:
-          group_id = cursor[0]
+        else: 
+          print("\nGROUP ALREADY EXISTS, UPDATE EXISTING\n")
+          group_id = cursor.fetchone()[0]
           cursor.execute(
-            "UPDATE Groups SET"\
+            "UPDATE Groups SET "\
             "name=?,"\
             "degree=?,"\
             "gap_id=?,"\
@@ -209,57 +215,59 @@ class Data_Generator:
              bool(sekr),
              bool(abelian),
              bool(nilpotent),
-             bool(primitive)))
-        
+             bool(primitive),
+             group_id))
+
         conn.commit()
 
-        group_id = cursor.lastrowid # used to link the tables together below
+        print("\nFINISHED SAVING GROUP PROPERTIES\n")
+
+        cursor.execute("SELECT group_id FROM Groups WHERE gap_id=? AND degree=?",
+                       (int(number), int(degree))) 
+
+        group_id = cursor.fetchone()[0]
+
+        print("\nGROUP_ID: ", group_id, "\n")
 
 ##### MINIMALLY TRANSITIVE SUBGROUPS DB ####
 
+        print("\nBEGINNING SUBGROUP QUERIES\n")
+
         cursor.execute(
           "SELECT subgroup_id FROM Subgroups WHERE group_id=?",
-          (group_id)) # checks to see if records for this group already exist
+          [group_id]) # checks to see if records for this group already exist
 
-        if not cursor:
+        records_exist = cursor.rowcount
+
+        print("\nMINIMALLY TRANSITIVE: ", minimally_transitive, "\n")
+
+        if not records_exist:
+          print("\nNEW SUBGROUPS\n")
           for subgroup in minimally_transitive_subgroups:
             cursor.execute(
-              "INSERT INTO Subgroups (group_id,degree,gap_id) VALUES (?, ?, ?)", 
+              "INSERT INTO Subgroups (group_id,degree,gap_id) VALUES (?, ?, ?)",
               (group_id,int(degree),int(subgroup)))
-        else:
-          subgroup_ids = cursor
-          for subgroup_id in subgroup_ids:
-            cursor.execute(
-              "UPDATE Subgroups SET"\
-              "group_id=?,"\
-              "degree=?,"\
-              "subgroup=?"\
-              "WHERE subgroup_id=?",
-              (group_id, int(degree), int(subgroup), subgroup_id))
-        conn.commit()
+          conn.commit()
+
+        print("\nFINISHED SUBGROUP QUERIES\n")
 
 #### EIGENVALUES DB ####
 
+        print("\nBEGINNING EIGENVALUE QUERIES\n")
+
         cursor.execute(
           "SELECT evalue_id FROM Eigenvalues WHERE group_id=?",
-          (group_id)) # checks to see if records for this group already exist
+          [group_id]) # checks to see if records for this group already exist
 
-        if not cursor:
+        records_exist = cursor.rowcount
+
+        if not records_exist:
+          print("\nNEW EIGENVALUES\n")
           for pair in eigenvalues:
             cursor.execute(
               "INSERT INTO Eigenvalues (group_id, eigenvalue, multiplicity) VALUES (?, ?, ?)",
               (group_id, int(pair[0]), int(pair[1])))
-        else:
-          evalue_ids = cursor
-          for evalue_id in evalue_ids:
-            for pair in eigenvalues:
-              cursor.execute(
-                "UPDATE Eigenvalues SET"\
-                "group_id=?,"\
-                "eigenvalue=?,"\
-                "multiplicity=?,"\
-                "WHERE evalue_id=?",
-                (group_id, int(pair[0]), int(pair[1]), evalue_id))
-
-        conn.commit() 
+            conn.commit()
+        
+        print("\nFINISHED EVALUES\n")
         conn.close()
