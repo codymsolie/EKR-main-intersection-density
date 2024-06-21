@@ -125,6 +125,9 @@ class Intersection_Density:
       if not self.max_wtd_eigenvalue == None:
         print("Ratio Bound gives: ", self.G.degree / (1 + int(round(self.max_wtd_eigenvalue))))
         return self.G.degree / (1 + int(round(self.max_wtd_eigenvalue)))
+      return (self.G.order / 2)
+
+##### THIS IS WHERE THE ERROR IS, RETURN A BAD VALUE IF RATIO BOUND GIVES NOTHING
 
     def subgroup_by_non_derangements(self):
       non_derangements = [] # holds all non-derangement elements of G
