@@ -81,14 +81,9 @@ class Intersection_Density:
       print("Clique Coclique gives: ", self.G.degree/largest_clique_size)
       return (self.G.degree / largest_clique_size)
 
-
-    # need to determine how to reuse already-computed results
-    # will be using a database to store computations
-
     def ub_no_homomorphism(self):
       min_int_dens = (self.G.order / 2)
       if not self.G.minimally_transitive:
-      
         try:
           conn = mariadb.connect(
             user = "int_dens",
@@ -97,7 +92,6 @@ class Intersection_Density:
             database = "intersection_density"
           )
           print("Connected to MariaDB!\n")
-        
         except mariadb.Error as e:
           print(f"Error connecting to MariaDB platform: {e}")
           sys.exit(1)
@@ -105,29 +99,27 @@ class Intersection_Density:
         cursor = conn.cursor()
 
         for id in self.G.minimally_transitive_subgroups:
-
           cursor.execute(
           "SELECT (ekr,int_dens_hi) FROM Groups WHERE gap_id=? AND degree=?",
           (id, int(self.G.degree)))
 
-          if cursor[0][0]:
+          row = cursor.fetchone()
+
+          if row[0]: # if group has EKR, we are done
             return 1
 
-          if cursor[0][1] < min_int_dens:
-            min_int_dens = cursor[0][1]
+          if row[1] < min_int_dens:       # group does not have EKR, use int_dens_hi as new
+            min_int_dens = cursor[0][1]   # lower bound if it improves the existing result
+                                          
 
       print("No Homomorphism gives: ", min_int_dens)
       return min_int_dens
 
     def ub_ratio_bound(self):
-      if self.has_ekr:
-        return 1
-      if not self.max_wtd_eigenvalue == None:
+      if self.max_wtd_eigenvalue:
         print("Ratio Bound gives: ", self.G.degree / (1 + int(round(self.max_wtd_eigenvalue))))
         return self.G.degree / (1 + int(round(self.max_wtd_eigenvalue)))
       return (self.G.order / 2)
-
-##### THIS IS WHERE THE ERROR IS, RETURN A BAD VALUE IF RATIO BOUND GIVES NOTHING
 
     def subgroup_by_non_derangements(self):
       non_derangements = [] # holds all non-derangement elements of G

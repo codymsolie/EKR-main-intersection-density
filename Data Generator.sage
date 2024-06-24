@@ -16,14 +16,6 @@ class Data_Generator:
                 ekr = EKR_Determiner(common)
                 print("EKR property determined")
 
-                print("Determining EKR-module property")
-                ekrm = EKRM_Determiner(common, ekr)
-                print("EKR-module property determined")
-
-                print("Determining strict EKR property")
-                strict_ekr = Strict_EKR_Determiner(common, ekr, ekrm)
-                print("Strict EKR property determined")
-
                 print("Determining Intersection Density")
                 intersection_density = Intersection_Density(common, ekr)
                 print("Intersection Density determined")
@@ -46,10 +38,6 @@ class Data_Generator:
                     "is a complete multipartite": common.is_a_complete_multipartite,
                     "ekr": ekr.has_ekr,
                     "ekr reasons": ekr.reasons,
-                    "ekrm": ekrm.has_ekrm,
-                    "ekrm reasons": ekrm.reasons,
-                    "sekr": strict_ekr.has_strict_ekr,
-                    "sekr reasons": strict_ekr.reasons,
                     "abelian": group.is_abelian(),
                     "nilpotent": group.is_nilpotent(),
                     "primitive": group.is_primitive(),
@@ -115,10 +103,6 @@ class Data_Generator:
         is_a_complete_multipartite = data["is a complete multipartite"]
         ekr = data["ekr"] 
         ekr_reasons = data["ekr reasons"]
-        ekrm = data["ekrm"]
-        ekrm_reasons = data["ekrm reasons"]
-        sekr = data["sekr"] 
-        sekr_reasons = data["sekr reasons"]
         abelian = data["abelian"]
         nilpotent = data["nilpotent"]
         primitive = data["primitive"]
@@ -152,9 +136,9 @@ class Data_Generator:
             "INSERT INTO Groups "\
             "(name,degree,gap_id,size,struc_desc"\
             ",int_dens_hi,int_dens_lo,int_dens,transitivity"\
-            ",min_trans,is_join,is_cmp,ekr,ekrm,sekr"\
+            ",min_trans,is_join,is_cmp,ekr"\
             ",is_abelian,is_nilpotent,is_primitive) VALUES "\
-            "(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
              (str(name), 
              int(degree), 
              int(number), 
@@ -168,8 +152,6 @@ class Data_Generator:
              bool(is_a_join),
              bool(is_a_complete_multipartite),
              bool(ekr),
-             bool(ekrm),
-             bool(sekr),
              bool(abelian),
              bool(nilpotent),
              bool(primitive))
@@ -192,8 +174,6 @@ class Data_Generator:
             "is_join=?,"\
             "is_cmp=?,"\
             "ekr=?,"\
-            "ekrm=?,"\
-            "sekr=?,"\
             "is_abelian=?,"\
             "is_nilpotent=?,"\
             "is_primitive=? "\
@@ -211,8 +191,6 @@ class Data_Generator:
              bool(is_a_join),
              bool(is_a_complete_multipartite),
              bool(ekr),
-             bool(ekrm),
-             bool(sekr),
              bool(abelian),
              bool(nilpotent),
              bool(primitive),
