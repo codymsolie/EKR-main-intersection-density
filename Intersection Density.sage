@@ -81,6 +81,9 @@ class Intersection_Density:
       print("Clique Coclique gives: ", self.G.degree/largest_clique_size)
       return (self.G.degree / largest_clique_size)
 
+      # this function is increasingly slow, as we are likely doing double work
+      # for many of the subgroups (if transitive). 
+
     def ub_no_homomorphism(self):
       min_int_dens = (self.G.order / 2)
       if not self.G.minimally_transitive:
@@ -109,7 +112,7 @@ class Intersection_Density:
             return 1
 
           if row[1] < min_int_dens:       # group does not have EKR, use int_dens_hi as new
-            min_int_dens = cursor[0][1]   # lower bound if it improves the existing result
+            min_int_dens = row[1]
                                           
 
       print("No Homomorphism gives: ", min_int_dens)
