@@ -100,7 +100,7 @@ class Intersection_Density:
 
         for id in self.G.minimally_transitive_subgroups:
           cursor.execute(
-          "SELECT (ekr,int_dens_hi) FROM Groups WHERE gap_id=? AND degree=?",
+          "SELECT ekr,int_dens_hi FROM Groups WHERE gap_id=? AND degree=?",
           (id, int(self.G.degree)))
 
           row = cursor.fetchone()
