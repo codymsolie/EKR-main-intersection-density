@@ -1,3 +1,0 @@
-While checking the EKR properties of Transitive group number 23 of degree 12 we encountered the error 'Cursor' object is not subscriptable
-
-
