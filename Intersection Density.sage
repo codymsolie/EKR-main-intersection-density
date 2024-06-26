@@ -13,11 +13,15 @@ class Intersection_Density:
         self.upper_bound = self._get_upper_bound()
         self.lower_bound = self._get_lower_bound()
         self.exact_value = self._get_exact_value()
+        
+        # if intersection density determines EKR, set accordingly
+        if abs(float(self.exact_value) - 1) < 0.0001 and self.has_ekr == -1:
+          ekr_determiner._set_ekr(1)
 
 ###### DRIVER FUNCTIONS
 
     def _get_upper_bound(self):
-      if self.has_ekr:
+      if self.has_ekr == 1:
         return 1
       return min([
         (self.G.order / 2),
@@ -27,14 +31,14 @@ class Intersection_Density:
       ])
 
     def _get_lower_bound(self):
-      if self.has_ekr:
+      if self.has_ekr == 1:
         return 1
       if self.upper_bound == 1:
         return 1
       return self.lb_larger_than_stabilizer_cocliques() #this is our only lower bound
 
     def _get_exact_value(self):
-      if self.has_ekr:
+      if self.has_ekr == 1:
         return 1
 
       if self.upper_bound == self.lower_bound:
@@ -69,10 +73,12 @@ class Intersection_Density:
         ]))
         return max_size / self.G.size_of_stabilizer
       return 1 # worst possible bound if nothing is found here
-
+    
     def ub_clique_coclique(self):
       largest_clique_size = 2 #initializing to smallest clique size 
       for subgroup in self.G.subgroups:
+        if subgroup.order() > self.G.degree:
+          break
         subgroup_common = Common(subgroup)
         if subgroup_common.min_eigenvalue == -1:
           if subgroup_common.max_eigenvalue == (subgroup_common.order - 1):
@@ -108,7 +114,7 @@ class Intersection_Density:
 
           row = cursor.fetchone()
 
-          if row[0]: # if group has EKR, we are done
+          if row[0] == 1: # if group has EKR, we are done
             return 1
 
           if row[1] < min_int_dens:       # group does not have EKR, use int_dens_hi as new

@@ -3,7 +3,7 @@ import os
 class EKR_Determiner:
     def __init__(self, G):
         self.G = G
-        self.has_ekr = None
+        self.has_ekr = -1 
         self.reasons = []
 
         #weightings is used (if we have some) to pass weighting information along to the EKRM determiner
@@ -13,21 +13,21 @@ class EKR_Determiner:
         self.max_wtd_eigenvalue = None 
 
         if self.G.larger_than_stabilizer_cocliques:
-            self.has_ekr = False
+            self.has_ekr = 0 
             self.reasons.append("A coclique of size larger than |G|/n exists")
 
-        if self.has_ekr is None:
+        if self.has_ekr == -1 :
             if self._ratiobound_gives_ekr():
-                self.has_ekr = True
+                self.has_ekr = 1
                 self.reasons.append("Ratiobound gives EKR property")
 
             if self.G.n_cliques:  # should this be elif?
-                self.has_ekr = True
+                self.has_ekr = 1 
                 self.reasons.append("Group has a clique of size n")
             else:
                 (weightings_work, weightings) = self._weighting_gives_ekr()
                 if weightings_work:
-                    self.has_ekr = True
+                    self.has_ekr = 1 
                     self.reasons.append("A weighting on derangement classes gives EKR")
 
                     self.weightings = weightings
@@ -158,3 +158,10 @@ class EKR_Determiner:
             return (True, weightings)
         else:
             return (False, None)
+    
+
+    # used if intersection density determines EKR
+    def _set_ekr(self, value):
+      self.has_ekr = value
+      return
+      
