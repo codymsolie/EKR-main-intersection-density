@@ -19,7 +19,7 @@ class Data_Generator:
                 print("Determining Intersection Density")
                 intersection_density = Intersection_Density(common, ekr)
                 print("Intersection Density determined")
-        
+
                 print("Saving data")
                 data = {
                     "name": str(group),
@@ -37,7 +37,6 @@ class Data_Generator:
                     "is a join": common.is_a_join,
                     "is a complete multipartite": common.is_a_complete_multipartite,
                     "ekr": ekr.has_ekr,
-                    "ekr reasons": ekr.reasons,
                     "abelian": group.is_abelian(),
                     "nilpotent": group.is_nilpotent(),
                     "primitive": group.is_primitive(),
@@ -76,7 +75,7 @@ class Data_Generator:
     
     def _get_nice_eigenvalues(self, common):
         eigenvalues = common.eigenvalues
-        unique_eigenvalues = set(eigenvalues)  #these two lines remove duplicate eigenvalues in the output
+        unique_eigenvalues = set(eigenvalues)  #these two lines ensure unique evalues only
         eigenvalues = list(unique_eigenvalues)
         eigenvalues_with_multiplicities = common.eigenvalues_with_multiplicities
 
@@ -102,7 +101,6 @@ class Data_Generator:
         is_a_join = data["is a join"]
         is_a_complete_multipartite = data["is a complete multipartite"]
         ekr = data["ekr"] 
-        ekr_reasons = data["ekr reasons"]
         abelian = data["abelian"]
         nilpotent = data["nilpotent"]
         primitive = data["primitive"]
@@ -151,7 +149,7 @@ class Data_Generator:
              bool(minimally_transitive),
              bool(is_a_join),
              bool(is_a_complete_multipartite),
-             bool(ekr),
+             int(ekr),  # value of -1 means we could not determine
              bool(abelian),
              bool(nilpotent),
              bool(primitive))
@@ -190,7 +188,7 @@ class Data_Generator:
              bool(minimally_transitive),
              bool(is_a_join),
              bool(is_a_complete_multipartite),
-             bool(ekr),
+             int(ekr),
              bool(abelian),
              bool(nilpotent),
              bool(primitive),
