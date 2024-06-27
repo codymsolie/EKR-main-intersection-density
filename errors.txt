@@ -1,0 +1,4 @@
+While checking the EKR properties of Transitive group number 807 of degree 16 we encountered the error Error, reached the pre-set memory limit
+(change it with the -o command line option)
+
+
